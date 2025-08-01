@@ -23,8 +23,21 @@ A Python-based monitoring tool that continuously checks Waze for police alerts i
 1. Clone or download the script
 2. Install required dependencies:
 
+### Using pip
 ```bash
 pip install aiohttp asyncio typer folium webbrowser
+```
+
+### Using pipenv (Recommended)
+```bash
+# Install pipenv if you haven't already
+pip install pipenv
+
+# Create a virtual environment and install dependencies
+pipenv install
+
+# Activate the virtual environment
+pipenv shell
 ```
 
 ## Configuration
@@ -59,19 +72,31 @@ export PUSHOVER_USER_KEYS="user_key1,user_key2,user_key3"  # Comma-separated lis
 Start continuous monitoring with default settings:
 
 ```bash
+# Using pip
 python main.py monitor
+
+# Using pipenv
+pipenv run python main.py monitor
 ```
 
 Monitor with custom interval (e.g., every 2 minutes):
 
 ```bash
+# Using pip
 python main.py monitor --interval 120
+
+# Using pipenv
+pipenv run python main.py monitor --interval 120
 ```
 
 Monitor with custom geographic bounds:
 
 ```bash
+# Using pip
 python main.py monitor --top 34.5 --bottom 34.0 --left -118.5 --right -118.0
+
+# Using pipenv
+pipenv run python main.py monitor --top 34.5 --bottom 34.0 --left -118.5 --right -118.0
 ```
 
 ### Single Check
@@ -79,13 +104,21 @@ python main.py monitor --top 34.5 --bottom 34.0 --left -118.5 --right -118.0
 Check for alerts once and exit:
 
 ```bash
+# Using pip
 python main.py check-once
+
+# Using pipenv
+pipenv run python main.py check-once
 ```
 
 With custom bounds:
 
 ```bash
+# Using pip
 python main.py check-once --top 34.5 --bottom 34.0 --left -118.5 --right -118.0
+
+# Using pipenv
+pipenv run python main.py check-once --top 34.5 --bottom 34.0 --left -118.5 --right -118.0
 ```
 
 ### Dry Run Mode
@@ -93,7 +126,11 @@ python main.py check-once --top 34.5 --bottom 34.0 --left -118.5 --right -118.0
 Test without sending notifications:
 
 ```bash
+# Using pip
 python main.py monitor --dry-run
+
+# Using pipenv
+pipenv run python main.py monitor --dry-run
 ```
 
 ### Visualize Monitoring Area
@@ -101,19 +138,31 @@ python main.py monitor --dry-run
 Show current bounds and create an interactive map:
 
 ```bash
+# Using pip
 python main.py show-bounds
+
+# Using pipenv
+pipenv run python main.py show-bounds
 ```
 
 Open map automatically in browser:
 
 ```bash
+# Using pip
 python main.py show-bounds --open
+
+# Using pipenv
+pipenv run python main.py show-bounds --open
 ```
 
 Save map to custom location:
 
 ```bash
+# Using pip
 python main.py show-bounds --save /path/to/map.html
+
+# Using pipenv
+pipenv run python main.py show-bounds --save /path/to/map.html
 ```
 
 ## Command Line Options
