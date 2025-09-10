@@ -3,12 +3,13 @@ import aiohttp
 import asyncio
 import json
 import logging
-from datetime import datetime
+from datetime import datetime, timedelta
 import typer
-from typing import Optional
+from typing import Optional, Set, Dict
 import folium
 import webbrowser
 from pathlib import Path
+import pickle
 
 # Configure logging
 logging.basicConfig(
@@ -19,6 +20,83 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 app = typer.Typer()
+
+# Alert cache configuration
+CACHE_FILE = "alert_cache.pkl"
+CACHE_DURATION_HOURS = int(os.getenv("CACHE_DURATION_HOURS", "24"))  # Default 24 hours
+
+
+class AlertCache:
+    """Manages a persistent cache of seen alerts to prevent duplicates"""
+
+    def __init__(
+        self, cache_file: str = CACHE_FILE, duration_hours: int = CACHE_DURATION_HOURS
+    ):
+        self.cache_file = Path(cache_file)
+        self.duration_hours = duration_hours
+        self.seen_alerts: Dict[str, datetime] = {}
+        self.load_cache()
+
+    def load_cache(self):
+        """Load the cache from disk"""
+        try:
+            if self.cache_file.exists():
+                with open(self.cache_file, "rb") as f:
+                    self.seen_alerts = pickle.load(f)
+                logger.info(f"Loaded {len(self.seen_alerts)} alerts from cache")
+                self.cleanup_expired()
+            else:
+                logger.info("No existing cache file found, starting fresh")
+        except Exception as e:
+            logger.error(f"Failed to load cache: {e}")
+            self.seen_alerts = {}
+
+    def save_cache(self):
+        """Save the cache to disk"""
+        try:
+            with open(self.cache_file, "wb") as f:
+                pickle.dump(self.seen_alerts, f)
+            logger.debug(f"Saved {len(self.seen_alerts)} alerts to cache")
+        except Exception as e:
+            logger.error(f"Failed to save cache: {e}")
+
+    def cleanup_expired(self):
+        """Remove expired alerts from cache"""
+        cutoff_time = datetime.now() - timedelta(hours=self.duration_hours)
+        before_count = len(self.seen_alerts)
+
+        # Remove expired entries
+        expired_uuids = [
+            uuid
+            for uuid, timestamp in self.seen_alerts.items()
+            if timestamp < cutoff_time
+        ]
+
+        for uuid in expired_uuids:
+            del self.seen_alerts[uuid]
+
+        removed_count = before_count - len(self.seen_alerts)
+        if removed_count > 0:
+            logger.info(f"Cleaned up {removed_count} expired alerts from cache")
+
+    def is_seen(self, alert_uuid: str) -> bool:
+        """Check if an alert has been seen before"""
+        return alert_uuid in self.seen_alerts
+
+    def mark_seen(self, alert_uuid: str):
+        """Mark an alert as seen"""
+        self.seen_alerts[alert_uuid] = datetime.now()
+
+    def get_stats(self) -> Dict[str, int]:
+        """Get cache statistics"""
+        return {
+            "total_alerts": len(self.seen_alerts),
+            "cache_duration_hours": self.duration_hours,
+        }
+
+
+# Global alert cache instance
+alert_cache = AlertCache()
 
 # Coordinates for LA County - pulled from environment variables
 bounds = {
@@ -125,7 +203,34 @@ async def check_waze_alerts(custom_bounds: Optional[dict] = None):
                     ]
                     logger.info(f"Found {len(police_alerts)} police alerts")
 
+                    # Filter out duplicate alerts using cache
+                    new_police_alerts = []
+                    duplicate_count = 0
+
                     for alert in police_alerts:
+                        alert_uuid = alert.get("uuid")
+                        if alert_uuid:
+                            if not alert_cache.is_seen(alert_uuid):
+                                new_police_alerts.append(alert)
+                                alert_cache.mark_seen(alert_uuid)
+                            else:
+                                duplicate_count += 1
+                                logger.debug(f"Skipping duplicate alert: {alert_uuid}")
+                        else:
+                            # If no UUID, treat as new (shouldn't happen but be safe)
+                            new_police_alerts.append(alert)
+                            logger.warning(
+                                f"Alert without UUID found: {alert.get('id', 'unknown')}"
+                            )
+
+                    logger.info(
+                        f"Found {len(new_police_alerts)} new police alerts ({duplicate_count} duplicates filtered)"
+                    )
+
+                    # Save cache after processing
+                    alert_cache.save_cache()
+
+                    for alert in new_police_alerts:
                         description = alert.get("street", "Unknown location")
                         location = f"{alert.get('location', {}).get('y', 'N/A')}, {alert.get('location', {}).get('x', 'N/A')}"
                         city = alert.get("city", "Unknown city")
@@ -238,6 +343,11 @@ def monitor(
     dry_run: bool = typer.Option(
         False, "--dry-run", help="Run without sending notifications"
     ),
+    cache_duration: Optional[int] = typer.Option(
+        None,
+        "--cache-duration",
+        help="Cache duration in hours (overrides CACHE_DURATION_HOURS env var)",
+    ),
 ):
     """Monitor Waze for police alerts in the specified area"""
 
@@ -254,6 +364,11 @@ def monitor(
 
     if dry_run:
         logger.info("DRY RUN MODE: Notifications will not be sent")
+
+    # Update cache duration if specified
+    if cache_duration is not None:
+        alert_cache.duration_hours = cache_duration
+        logger.info(f"Cache duration set to {cache_duration} hours")
 
     # Run the monitoring loop
     asyncio.run(monitor_loop(interval, custom_bounds, dry_run))
@@ -274,6 +389,11 @@ def check_once(
     dry_run: bool = typer.Option(
         False, "--dry-run", help="Run without sending notifications"
     ),
+    cache_duration: Optional[int] = typer.Option(
+        None,
+        "--cache-duration",
+        help="Cache duration in hours (overrides CACHE_DURATION_HOURS env var)",
+    ),
 ):
     """Check for police alerts once and exit"""
 
@@ -290,6 +410,11 @@ def check_once(
 
     if dry_run:
         logger.info("DRY RUN MODE: Notifications will not be sent")
+
+    # Update cache duration if specified
+    if cache_duration is not None:
+        alert_cache.duration_hours = cache_duration
+        logger.info(f"Cache duration set to {cache_duration} hours")
 
     # Run a single check
     asyncio.run(check_waze_alerts(custom_bounds))
@@ -372,6 +497,54 @@ def show_bounds(
     else:
         typer.echo(f"To view the map, open: {map_path.absolute()}")
         typer.echo("Or use: --open to automatically open in browser")
+
+
+@app.command()
+def cache_stats():
+    """Show alert cache statistics"""
+    stats = alert_cache.get_stats()
+    typer.echo(f"Alert Cache Statistics:")
+    typer.echo(f"  Total cached alerts: {stats['total_alerts']}")
+    typer.echo(f"  Cache duration: {stats['cache_duration_hours']} hours")
+    typer.echo(f"  Cache file: {alert_cache.cache_file}")
+
+    if alert_cache.cache_file.exists():
+        file_size = alert_cache.cache_file.stat().st_size
+        typer.echo(f"  Cache file size: {file_size} bytes")
+    else:
+        typer.echo(f"  Cache file: Does not exist yet")
+
+
+@app.command()
+def clear_cache():
+    """Clear the alert cache"""
+    try:
+        if alert_cache.cache_file.exists():
+            alert_cache.cache_file.unlink()
+            typer.echo("✅ Cache file deleted successfully")
+        else:
+            typer.echo("ℹ️  No cache file found")
+
+        # Reset the in-memory cache
+        alert_cache.seen_alerts = {}
+        typer.echo("✅ In-memory cache cleared")
+
+    except Exception as e:
+        typer.echo(f"❌ Error clearing cache: {e}")
+
+
+@app.command()
+def cleanup_cache():
+    """Remove expired alerts from cache"""
+    before_count = len(alert_cache.seen_alerts)
+    alert_cache.cleanup_expired()
+    alert_cache.save_cache()
+    after_count = len(alert_cache.seen_alerts)
+    removed = before_count - after_count
+
+    typer.echo(f"✅ Cache cleanup completed")
+    typer.echo(f"  Removed {removed} expired alerts")
+    typer.echo(f"  Remaining alerts: {after_count}")
 
 
 if __name__ == "__main__":

@@ -1,0 +1,4383 @@
+{
+    "alerts": [
+        {
+            "country": "US",
+            "nThumbsUp": 1,
+            "city": "Irvine, CA",
+            "reportRating": 0,
+            "reportByMunicipalityUser": "false",
+            "reliability": 7,
+            "type": "HAZARD",
+            "fromNodeId": 52977886,
+            "uuid": "59377f48-454d-4454-b369-820a39b68444",
+            "speed": 0,
+            "reportMood": 1,
+            "subtype": "HAZARD_ON_ROAD_CONSTRUCTION",
+            "provider": "reporting-tool",
+            "street": "to I-5 S",
+            "providerId": "City of Irvine_1755725156083",
+            "additionalInfo": "",
+            "toNodeId": 50262273,
+            "id": "alert-744274284/59377f48-454d-4454-b369-820a39b68444",
+            "nComments": 0,
+            "reportBy": "City of Irvine",
+            "inscale": false,
+            "comments": [
+                {
+                    "reportMillis": 1757478404000,
+                    "text": "",
+                    "isThumbsUp": true
+                }
+            ],
+            "confidence": 0,
+            "roadType": 4,
+            "magvar": 48,
+            "wazeData": "usa,-117.783503,33.70867,59377f48-454d-4454-b369-820a39b68444",
+            "reportDescription": "Lane Closure.",
+            "location": {
+                "x": -117.783503,
+                "y": 33.70867
+            },
+            "pubMillis": 1757476800000
+        },
+        {
+            "country": "US",
+            "nThumbsUp": 6,
+            "city": "Irvine, CA",
+            "reportRating": 5,
+            "reportByMunicipalityUser": "false",
+            "reliability": 10,
+            "type": "ROAD_CLOSED",
+            "fromNodeId": 53881183,
+            "uuid": "fc9e99f9-7685-48b8-b783-4baf4912de2b",
+            "speed": 0,
+            "reportMood": 0,
+            "subtype": "ROAD_CLOSED_EVENT",
+            "additionalInfo": "",
+            "toNodeId": 53881182,
+            "id": "alert-604415488/fc9e99f9-7685-48b8-b783-4baf4912de2b",
+            "nComments": 0,
+            "reportBy": "ojlaw",
+            "inscale": false,
+            "comments": [
+                {
+                    "reportMillis": 1744518316000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1747448211000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1750379067000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1750996264000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1752521766000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1756852562000,
+                    "text": "",
+                    "isThumbsUp": true
+                }
+            ],
+            "confidence": 3,
+            "roadType": 20,
+            "magvar": 38,
+            "wazeData": "usa,-117.78955955315153,33.72274635223514,fc9e99f9-7685-48b8-b783-4baf4912de2b",
+            "reportDescription": "",
+            "location": {
+                "x": -117.789559,
+                "y": 33.722746
+            },
+            "pubMillis": 1744386112000
+        },
+        {
+            "country": "US",
+            "nThumbsUp": 18,
+            "city": "Irvine, CA",
+            "reportRating": 5,
+            "reportByMunicipalityUser": "false",
+            "reliability": 10,
+            "type": "ROAD_CLOSED",
+            "fromNodeId": 509236183,
+            "uuid": "07c1bb7d-bfed-468b-ba6a-00b5ee3ab247",
+            "speed": 0,
+            "reportMood": 0,
+            "subtype": "ROAD_CLOSED_EVENT",
+            "additionalInfo": "",
+            "toNodeId": 53881183,
+            "id": "alert-571022290/07c1bb7d-bfed-468b-ba6a-00b5ee3ab247",
+            "nComments": 0,
+            "reportBy": "ojlaw",
+            "inscale": false,
+            "comments": [
+                {
+                    "reportMillis": 1743909683000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1744477110000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1744518314000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1747964647000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1749528675000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1749622233000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1750119890000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1750379070000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1751144983000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1751555782000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1752113356000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1752519593000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1754163952000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1754164039000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1754714806000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1755711112000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1756071191000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1756219047000,
+                    "text": "",
+                    "isThumbsUp": true
+                }
+            ],
+            "confidence": 5,
+            "roadType": 20,
+            "magvar": 51,
+            "wazeData": "usa,-117.79011372870875,33.72219010514834,07c1bb7d-bfed-468b-ba6a-00b5ee3ab247",
+            "reportDescription": "",
+            "location": {
+                "x": -117.790113,
+                "y": 33.72219
+            },
+            "pubMillis": 1743777369000
+        },
+        {
+            "country": "US",
+            "nThumbsUp": 9,
+            "city": "Irvine, CA",
+            "reportRating": 5,
+            "reportByMunicipalityUser": "false",
+            "reliability": 10,
+            "type": "ROAD_CLOSED",
+            "fromNodeId": 52924473,
+            "uuid": "e429e6cd-50eb-4748-ad1b-de7ead7c1481",
+            "speed": 0,
+            "reportMood": 0,
+            "subtype": "ROAD_CLOSED_EVENT",
+            "street": "Market Pl",
+            "additionalInfo": "",
+            "toNodeId": 53881182,
+            "id": "alert-604411994/e429e6cd-50eb-4748-ad1b-de7ead7c1481",
+            "nComments": 0,
+            "reportBy": "ojlaw",
+            "inscale": false,
+            "comments": [
+                {
+                    "reportMillis": 1744518322000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1746932667000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1747683423000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1750379049000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1750996254000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1751555788000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1752521774000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1753111805000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1753913627000,
+                    "text": "",
+                    "isThumbsUp": true
+                }
+            ],
+            "confidence": 4,
+            "roadType": 20,
+            "magvar": 220,
+            "wazeData": "usa,-117.78832435608,33.724018976571,e429e6cd-50eb-4748-ad1b-de7ead7c1481",
+            "reportDescription": "",
+            "location": {
+                "x": -117.788324,
+                "y": 33.724018
+            },
+            "pubMillis": 1744386112000
+        },
+        {
+            "country": "US",
+            "nThumbsUp": 9,
+            "city": "Irvine, CA",
+            "reportRating": 5,
+            "reportByMunicipalityUser": "false",
+            "reliability": 10,
+            "type": "ROAD_CLOSED",
+            "fromNodeId": 53881182,
+            "uuid": "9f285363-4b14-48a5-9e8f-923dca5d715a",
+            "speed": 0,
+            "reportMood": 0,
+            "subtype": "ROAD_CLOSED_EVENT",
+            "street": "Market Pl",
+            "additionalInfo": "",
+            "toNodeId": 52924473,
+            "id": "alert-604415487/9f285363-4b14-48a5-9e8f-923dca5d715a",
+            "nComments": 0,
+            "reportBy": "ojlaw",
+            "inscale": false,
+            "comments": [
+                {
+                    "reportMillis": 1744518319000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1745276235000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1749566848000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1750129246000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1750379063000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1750996260000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1751555785000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1752113358000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1752607814000,
+                    "text": "",
+                    "isThumbsUp": true
+                }
+            ],
+            "confidence": 5,
+            "roadType": 20,
+            "magvar": 40,
+            "wazeData": "usa,-117.78891432638942,33.72342999750135,9f285363-4b14-48a5-9e8f-923dca5d715a",
+            "reportDescription": "",
+            "location": {
+                "x": -117.788914,
+                "y": 33.723429
+            },
+            "pubMillis": 1744386112000
+        },
+        {
+            "country": "US",
+            "nThumbsUp": 6,
+            "city": "Irvine, CA",
+            "reportRating": 5,
+            "reportByMunicipalityUser": "false",
+            "reliability": 10,
+            "type": "ROAD_CLOSED",
+            "fromNodeId": 53881182,
+            "uuid": "bc566370-f63a-4bdb-91b7-3abfeb1c461b",
+            "speed": 0,
+            "reportMood": 0,
+            "subtype": "ROAD_CLOSED_EVENT",
+            "additionalInfo": "",
+            "toNodeId": 53881183,
+            "id": "alert-604411993/bc566370-f63a-4bdb-91b7-3abfeb1c461b",
+            "nComments": 0,
+            "reportBy": "ojlaw",
+            "inscale": false,
+            "comments": [
+                {
+                    "reportMillis": 1744518320000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1750379052000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1750996266000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1751555786000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1752521772000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1754163935000,
+                    "text": "",
+                    "isThumbsUp": true
+                }
+            ],
+            "confidence": 3,
+            "roadType": 20,
+            "magvar": 218,
+            "wazeData": "usa,-117.78891432638942,33.72342999750135,bc566370-f63a-4bdb-91b7-3abfeb1c461b",
+            "reportDescription": "",
+            "location": {
+                "x": -117.788914,
+                "y": 33.723429
+            },
+            "pubMillis": 1744386112000
+        },
+        {
+            "country": "US",
+            "nThumbsUp": 5,
+            "city": "Irvine, CA",
+            "reportRating": 5,
+            "reportByMunicipalityUser": "false",
+            "reliability": 10,
+            "type": "ROAD_CLOSED",
+            "fromNodeId": 53881183,
+            "uuid": "46a84d2b-54a9-4d8c-964c-90d81c3884b6",
+            "speed": 0,
+            "reportMood": 0,
+            "subtype": "ROAD_CLOSED_EVENT",
+            "additionalInfo": "",
+            "toNodeId": 509236183,
+            "id": "alert-571035241/46a84d2b-54a9-4d8c-964c-90d81c3884b6",
+            "nComments": 0,
+            "reportBy": "ojlaw",
+            "inscale": false,
+            "comments": [
+                {
+                    "reportMillis": 1743909675000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1744518317000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1750379057000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1751555784000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1752607808000,
+                    "text": "",
+                    "isThumbsUp": true
+                }
+            ],
+            "confidence": 2,
+            "roadType": 20,
+            "magvar": 219,
+            "wazeData": "usa,-117.78955955315153,33.72274635223514,46a84d2b-54a9-4d8c-964c-90d81c3884b6",
+            "reportDescription": "",
+            "location": {
+                "x": -117.789559,
+                "y": 33.722746
+            },
+            "pubMillis": 1743777369000
+        },
+        {
+            "country": "US",
+            "nThumbsUp": 5,
+            "city": "Irvine, CA",
+            "reportRating": 0,
+            "reportByMunicipalityUser": "false",
+            "reliability": 10,
+            "type": "HAZARD",
+            "fromNodeId": 52805250,
+            "uuid": "543d6c55-b07b-4625-91c8-4ee4b4d97c0f",
+            "speed": 0,
+            "reportMood": 1,
+            "subtype": "",
+            "provider": "Caltrans District 12",
+            "street": "I-5 S",
+            "providerId": "C5TB-0037-2025-09-09-23:01:00",
+            "additionalInfo": "",
+            "toNodeId": 50262273,
+            "id": "alert-786546511/543d6c55-b07b-4625-91c8-4ee4b4d97c0f",
+            "nComments": 0,
+            "reportBy": "CalTrans 12",
+            "inscale": true,
+            "comments": [
+                {
+                    "reportMillis": 1757484258000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757484430000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757485958000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757487142000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757487411000,
+                    "text": "",
+                    "isThumbsUp": true
+                }
+            ],
+            "confidence": 2,
+            "roadType": 3,
+            "magvar": 146,
+            "wazeData": "usa,-117.780025,33.707272,543d6c55-b07b-4625-91c8-4ee4b4d97c0f",
+            "reportDescription": "I-5 South - Miscellaneous Work Culver Dr",
+            "location": {
+                "x": -117.780025,
+                "y": 33.707272
+            },
+            "pubMillis": 1757484060000
+        },
+        {
+            "country": "US",
+            "nThumbsUp": 1,
+            "city": "Irvine, CA",
+            "reportRating": 0,
+            "reportByMunicipalityUser": "false",
+            "reliability": 7,
+            "type": "HAZARD",
+            "fromNodeId": 52805250,
+            "uuid": "bd4480ea-1f85-4774-929e-b672bd7963d1",
+            "speed": 0,
+            "reportMood": 1,
+            "subtype": "",
+            "provider": "Caltrans District 12",
+            "street": "I-5 S",
+            "providerId": "C5TB-0038-2025-09-09-23:59:00",
+            "additionalInfo": "",
+            "toNodeId": 50262273,
+            "id": "alert-786574779/bd4480ea-1f85-4774-929e-b672bd7963d1",
+            "nComments": 0,
+            "reportBy": "CalTrans 12",
+            "inscale": true,
+            "comments": [
+                {
+                    "reportMillis": 1757488675000,
+                    "text": "",
+                    "isThumbsUp": true
+                }
+            ],
+            "confidence": 0,
+            "roadType": 3,
+            "magvar": 146,
+            "wazeData": "usa,-117.780025,33.707272,bd4480ea-1f85-4774-929e-b672bd7963d1",
+            "reportDescription": "I-5 South - Miscellaneous Work Culver Dr",
+            "location": {
+                "x": -117.780025,
+                "y": 33.707272
+            },
+            "pubMillis": 1757487540000
+        },
+        {
+            "country": "US",
+            "nThumbsUp": 7,
+            "reportRating": 0,
+            "reportByMunicipalityUser": "false",
+            "reliability": 10,
+            "type": "HAZARD",
+            "fromNodeId": 5636649,
+            "uuid": "4fec3aaf-dee8-4432-ac5c-4def1f260355",
+            "speed": 0,
+            "reportMood": 1,
+            "subtype": "",
+            "provider": "Caltrans District 12",
+            "street": "CA-55 S",
+            "providerId": "C55DA-0069-2025-09-09-21:01:00",
+            "additionalInfo": "",
+            "toNodeId": 5631870,
+            "id": "alert-792922904/4fec3aaf-dee8-4432-ac5c-4def1f260355",
+            "nComments": 0,
+            "reportBy": "CalTrans 12",
+            "inscale": true,
+            "comments": [
+                {
+                    "reportMillis": 1757477796000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757478564000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757479723000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757480118000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757482638000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757484293000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757489401000,
+                    "text": "",
+                    "isThumbsUp": true
+                }
+            ],
+            "confidence": 3,
+            "nearBy": "Santa Ana",
+            "roadType": 3,
+            "magvar": 180,
+            "wazeData": "usa,-117.834008,33.7337,4fec3aaf-dee8-4432-ac5c-4def1f260355",
+            "reportDescription": "SR-55 South - Maintenance Operation Mcfadden St",
+            "location": {
+                "x": -117.834008,
+                "y": 33.7337
+            },
+            "pubMillis": 1757476860000
+        },
+        {
+            "country": "US",
+            "reportRating": 0,
+            "reportByMunicipalityUser": "false",
+            "reliability": 6,
+            "type": "HAZARD",
+            "fromNodeId": 5696068,
+            "uuid": "c18479b2-8b4f-45ab-9984-d404f90525da",
+            "speed": 0,
+            "reportMood": 1,
+            "subtype": "",
+            "provider": "Caltrans District 12",
+            "street": "CA-55 N",
+            "providerId": "C55PA-0032-2025-09-09-23:01:13",
+            "additionalInfo": "",
+            "toNodeId": 53008205,
+            "id": "alert-792949749/c18479b2-8b4f-45ab-9984-d404f90525da",
+            "reportBy": "CalTrans 12",
+            "inscale": true,
+            "confidence": 0,
+            "nearBy": "Tustin",
+            "roadType": 3,
+            "magvar": 358,
+            "wazeData": "usa,-117.833681,33.737547,c18479b2-8b4f-45ab-9984-d404f90525da",
+            "reportDescription": "SR-55 North - Pavement Repair Santa Ana Frwy, Rte 5",
+            "location": {
+                "x": -117.833681,
+                "y": 33.737547
+            },
+            "pubMillis": 1757484073000
+        },
+        {
+            "country": "US",
+            "nThumbsUp": 12,
+            "city": "Tustin, CA",
+            "reportRating": 0,
+            "reportByMunicipalityUser": "false",
+            "reliability": 10,
+            "type": "HAZARD",
+            "fromNodeId": 53694723,
+            "uuid": "4832212a-85b7-44ee-be71-b9e7bb89bcb8",
+            "speed": 0,
+            "reportMood": 1,
+            "subtype": "",
+            "provider": "Caltrans District 12",
+            "street": "I-5 N",
+            "providerId": "C5MA-0011-2025-09-09-22:01:00",
+            "additionalInfo": "",
+            "toNodeId": 5626546,
+            "id": "alert-803313847/4832212a-85b7-44ee-be71-b9e7bb89bcb8",
+            "nComments": 0,
+            "reportBy": "CalTrans 12",
+            "inscale": true,
+            "comments": [
+                {
+                    "reportMillis": 1757481193000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757481437000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757481667000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757481733000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757482108000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757482604000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757483197000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757483849000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757483956000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757485305000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757488318000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757488715000,
+                    "text": "",
+                    "isThumbsUp": true
+                }
+            ],
+            "confidence": 5,
+            "roadType": 3,
+            "magvar": 308,
+            "wazeData": "usa,-117.803799,33.725751,4832212a-85b7-44ee-be71-b9e7bb89bcb8",
+            "reportDescription": "I-5 North - Sign Work Tustin Ranch Rd",
+            "location": {
+                "x": -117.803799,
+                "y": 33.725751
+            },
+            "pubMillis": 1757480460000
+        },
+        {
+            "country": "US",
+            "nThumbsUp": 18,
+            "reportRating": 0,
+            "reportByMunicipalityUser": "false",
+            "reliability": 10,
+            "type": "HAZARD",
+            "fromNodeId": 5696068,
+            "uuid": "510564cd-a5b1-401e-b547-49d9acca86f6",
+            "speed": 0,
+            "reportMood": 1,
+            "subtype": "HAZARD_ON_ROAD_CONSTRUCTION",
+            "provider": "Caltrans District 12",
+            "street": "CA-55 N",
+            "providerId": "C55PA-0008-2025-09-09-21:01:50",
+            "additionalInfo": "",
+            "toNodeId": 53008205,
+            "id": "alert-786452230/510564cd-a5b1-401e-b547-49d9acca86f6",
+            "nComments": 0,
+            "reportBy": "CalTrans 12",
+            "inscale": true,
+            "comments": [
+                {
+                    "reportMillis": 1757477053000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757477211000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757477579000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757477735000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757477885000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757478453000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757478697000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757479008000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757480619000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757481962000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757482366000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757482915000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757482985000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757484338000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757486128000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757487099000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757487448000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757488189000,
+                    "text": "",
+                    "isThumbsUp": true
+                }
+            ],
+            "confidence": 5,
+            "nearBy": "Tustin",
+            "roadType": 3,
+            "magvar": 358,
+            "wazeData": "usa,-117.833671,33.737317,510564cd-a5b1-401e-b547-49d9acca86f6",
+            "reportDescription": "SR-55 North - Median Barrier Work Santa Ana Frwy, Rte 5",
+            "location": {
+                "x": -117.833671,
+                "y": 33.737317
+            },
+            "pubMillis": 1757476910000
+        },
+        {
+            "country": "US",
+            "nThumbsUp": 2,
+            "reportRating": 0,
+            "reportByMunicipalityUser": "false",
+            "reliability": 8,
+            "type": "HAZARD",
+            "fromNodeId": 5636649,
+            "uuid": "ea1578d0-292b-4d09-8206-463bb6d054ff",
+            "speed": 0,
+            "reportMood": 1,
+            "subtype": "",
+            "provider": "Caltrans District 12",
+            "street": "CA-55 S",
+            "providerId": "C55DA-0068-2025-09-09-22:01:00",
+            "additionalInfo": "",
+            "toNodeId": 5631870,
+            "id": "alert-792937060/ea1578d0-292b-4d09-8206-463bb6d054ff",
+            "nComments": 0,
+            "reportBy": "CalTrans 12",
+            "inscale": true,
+            "comments": [
+                {
+                    "reportMillis": 1757480867000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757489356000,
+                    "text": "",
+                    "isThumbsUp": true
+                }
+            ],
+            "confidence": 1,
+            "nearBy": "Santa Ana",
+            "roadType": 3,
+            "magvar": 180,
+            "wazeData": "usa,-117.834008,33.7337,ea1578d0-292b-4d09-8206-463bb6d054ff",
+            "reportDescription": "SR-55 South - Maintenance Operation Mcfadden St",
+            "location": {
+                "x": -117.834008,
+                "y": 33.7337
+            },
+            "pubMillis": 1757480460000
+        },
+        {
+            "country": "US",
+            "nThumbsUp": 7,
+            "city": "Irvine, CA",
+            "reportRating": 0,
+            "reportByMunicipalityUser": "false",
+            "reliability": 10,
+            "type": "HAZARD",
+            "fromNodeId": 52805250,
+            "uuid": "69c62623-09d0-4857-b760-59105b23147c",
+            "speed": 0,
+            "reportMood": 1,
+            "subtype": "HAZARD_ON_ROAD_CONSTRUCTION",
+            "provider": "Caltrans District 12",
+            "street": "I-5 S",
+            "providerId": "C5TB-0036-2025-09-09-22:01:00",
+            "additionalInfo": "",
+            "toNodeId": 50262273,
+            "id": "alert-786473045/69c62623-09d0-4857-b760-59105b23147c",
+            "nComments": 0,
+            "reportBy": "CalTrans 12",
+            "inscale": true,
+            "comments": [
+                {
+                    "reportMillis": 1757481307000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757481455000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757482374000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757482577000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757485523000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757485960000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757487235000,
+                    "text": "",
+                    "isThumbsUp": true
+                }
+            ],
+            "confidence": 3,
+            "roadType": 3,
+            "magvar": 146,
+            "wazeData": "usa,-117.780025,33.707272,69c62623-09d0-4857-b760-59105b23147c",
+            "reportDescription": "I-5 South - Miscellaneous Work Culver Dr",
+            "location": {
+                "x": -117.780025,
+                "y": 33.707272
+            },
+            "pubMillis": 1757480460000
+        },
+        {
+            "country": "US",
+            "nThumbsUp": 9,
+            "city": "Santa Ana, CA",
+            "reportRating": 0,
+            "reportByMunicipalityUser": "false",
+            "reliability": 10,
+            "type": "HAZARD",
+            "fromNodeId": 5658352,
+            "uuid": "710a1953-8af4-41f0-b4ea-772fcc4585c5",
+            "speed": 0,
+            "reportMood": 1,
+            "subtype": "",
+            "provider": "Caltrans District 12",
+            "street": "I-5 S",
+            "providerId": "C5MA-0014-2025-09-09-22:01:00",
+            "additionalInfo": "",
+            "toNodeId": 505412265,
+            "id": "alert-803304326/710a1953-8af4-41f0-b4ea-772fcc4585c5",
+            "nComments": 0,
+            "reportBy": "CalTrans 12",
+            "inscale": true,
+            "comments": [
+                {
+                    "reportMillis": 1757482124000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757482862000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757484208000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757485705000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757486491000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757486865000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757487187000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757488472000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757489284000,
+                    "text": "",
+                    "isThumbsUp": true
+                }
+            ],
+            "confidence": 4,
+            "roadType": 3,
+            "magvar": 158,
+            "wazeData": "usa,-117.843505,33.748138,710a1953-8af4-41f0-b4ea-772fcc4585c5",
+            "reportDescription": "I-5 South - Sign Work Fourth St",
+            "location": {
+                "x": -117.843505,
+                "y": 33.748138
+            },
+            "pubMillis": 1757480460000
+        },
+        {
+            "country": "US",
+            "nThumbsUp": 36,
+            "city": "Irvine, CA",
+            "reportRating": 0,
+            "reportByMunicipalityUser": "false",
+            "reliability": 10,
+            "type": "HAZARD",
+            "fromNodeId": 52805250,
+            "uuid": "1456f481-5d9d-4206-b70c-c6856131f247",
+            "speed": 0,
+            "reportMood": 1,
+            "subtype": "HAZARD_ON_ROAD_CONSTRUCTION",
+            "provider": "Caltrans District 12",
+            "street": "I-5 S",
+            "providerId": "C5TB-0035-2025-09-09-21:01:00",
+            "additionalInfo": "",
+            "toNodeId": 50262273,
+            "id": "alert-786457057/1456f481-5d9d-4206-b70c-c6856131f247",
+            "nComments": 0,
+            "reportBy": "CalTrans 12",
+            "inscale": true,
+            "comments": [
+                {
+                    "reportMillis": 1757476917000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757477197000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757477233000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757477366000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757477424000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757477667000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757477686000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757477869000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757477905000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757477972000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757478230000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757478342000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757478606000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757478615000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757479256000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757479280000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757479430000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757479535000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757479616000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757479859000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757479923000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757480020000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757480102000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757480182000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757480182000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757480578000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757480742000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757481118000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757481305000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757481316000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757481477000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757482769000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757483912000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757484662000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757484811000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757487136000,
+                    "text": "",
+                    "isThumbsUp": true
+                }
+            ],
+            "confidence": 5,
+            "roadType": 3,
+            "magvar": 146,
+            "wazeData": "usa,-117.780025,33.707272,1456f481-5d9d-4206-b70c-c6856131f247",
+            "reportDescription": "I-5 South - Miscellaneous Work Culver Dr",
+            "location": {
+                "x": -117.780025,
+                "y": 33.707272
+            },
+            "pubMillis": 1757476860000
+        },
+        {
+            "country": "US",
+            "nThumbsUp": 13,
+            "reportRating": 0,
+            "reportByMunicipalityUser": "false",
+            "reliability": 10,
+            "type": "HAZARD",
+            "fromNodeId": 50421387,
+            "uuid": "c4af2a01-1312-49d0-9baf-fa964b17bf9f",
+            "speed": 0,
+            "reportMood": 1,
+            "subtype": "",
+            "provider": "Caltrans District 12",
+            "street": "CA-55 N",
+            "providerId": "C55PA-0012-2025-09-09-21:01:08",
+            "additionalInfo": "",
+            "toNodeId": 53672551,
+            "id": "alert-786457059/c4af2a01-1312-49d0-9baf-fa964b17bf9f",
+            "nComments": 0,
+            "reportBy": "CalTrans 12",
+            "inscale": true,
+            "comments": [
+                {
+                    "reportMillis": 1757477163000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757477396000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757477432000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757477758000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757478016000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757478212000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757478542000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757478721000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757478874000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757478914000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757479986000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757483084000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757489221000,
+                    "text": "",
+                    "isThumbsUp": true
+                }
+            ],
+            "confidence": 5,
+            "nearBy": "Orange",
+            "roadType": 3,
+            "magvar": 0,
+            "wazeData": "usa,-117.830883,33.775962,c4af2a01-1312-49d0-9baf-fa964b17bf9f",
+            "reportDescription": "SR-55 North - Median Barrier Work Garden Grove Frwy, Rte 22",
+            "location": {
+                "x": -117.830883,
+                "y": 33.775962
+            },
+            "pubMillis": 1757476868000
+        },
+        {
+            "country": "US",
+            "nThumbsUp": 11,
+            "reportRating": 0,
+            "reportByMunicipalityUser": "false",
+            "reliability": 10,
+            "type": "HAZARD",
+            "fromNodeId": 50421387,
+            "uuid": "f8b41157-b36d-4809-b3af-b700a4799bad",
+            "speed": 0,
+            "reportMood": 1,
+            "subtype": "",
+            "provider": "Caltrans District 12",
+            "street": "CA-55 N",
+            "providerId": "C55PA-0016-2025-09-09-22:01:37",
+            "additionalInfo": "",
+            "toNodeId": 53672551,
+            "id": "alert-786473046/f8b41157-b36d-4809-b3af-b700a4799bad",
+            "nComments": 0,
+            "reportBy": "CalTrans 12",
+            "inscale": true,
+            "comments": [
+                {
+                    "reportMillis": 1757480541000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757481252000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757481376000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757481532000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757482229000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757482844000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757482865000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757483266000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757483294000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757484741000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757488570000,
+                    "text": "",
+                    "isThumbsUp": true
+                }
+            ],
+            "confidence": 5,
+            "nearBy": "Orange",
+            "roadType": 3,
+            "magvar": 0,
+            "wazeData": "usa,-117.830883,33.775962,f8b41157-b36d-4809-b3af-b700a4799bad",
+            "reportDescription": "SR-55 North - Median Barrier Work Garden Grove Frwy, Rte 22",
+            "location": {
+                "x": -117.830883,
+                "y": 33.775962
+            },
+            "pubMillis": 1757480497000
+        },
+        {
+            "country": "US",
+            "nThumbsUp": 2,
+            "reportRating": 0,
+            "reportByMunicipalityUser": "false",
+            "reliability": 8,
+            "type": "HAZARD",
+            "fromNodeId": 50421387,
+            "uuid": "3525f280-5786-410f-b9e7-7c6f02b6993a",
+            "speed": 0,
+            "reportMood": 1,
+            "subtype": "",
+            "provider": "Caltrans District 12",
+            "street": "CA-55 N",
+            "providerId": "C55PA-0035-2025-09-09-23:01:20",
+            "additionalInfo": "",
+            "toNodeId": 53672551,
+            "id": "alert-792949751/3525f280-5786-410f-b9e7-7c6f02b6993a",
+            "nComments": 0,
+            "reportBy": "CalTrans 12",
+            "inscale": true,
+            "comments": [
+                {
+                    "reportMillis": 1757485344000,
+                    "text": "",
+                    "isThumbsUp": true
+                },
+                {
+                    "reportMillis": 1757486280000,
+                    "text": "",
+                    "isThumbsUp": true
+                }
+            ],
+            "confidence": 1,
+            "nearBy": "Orange",
+            "roadType": 3,
+            "magvar": 0,
+            "wazeData": "usa,-117.830892,33.777114,3525f280-5786-410f-b9e7-7c6f02b6993a",
+            "reportDescription": "SR-55 North - Pavement Repair Garden Grove Frwy, Rte 22",
+            "location": {
+                "x": -117.830892,
+                "y": 33.777114
+            },
+            "pubMillis": 1757484080000
+        }
+    ],
+    "endTimeMillis": 1757489520000,
+    "startTimeMillis": 1757489460000,
+    "startTime": "2025-09-10 07:31:00:000",
+    "endTime": "2025-09-10 07:32:00:000",
+    "jams": [
+        {
+            "country": "US",
+            "city": "Irvine, CA",
+            "line": [
+                {
+                    "x": -117.73979,
+                    "y": 33.677858
+                },
+                {
+                    "x": -117.739327,
+                    "y": 33.677619
+                },
+                {
+                    "x": -117.738888,
+                    "y": 33.677534
+                },
+                {
+                    "x": -117.738544,
+                    "y": 33.677519
+                },
+                {
+                    "x": -117.738234,
+                    "y": 33.677551
+                },
+                {
+                    "x": -117.737772,
+                    "y": 33.677614
+                },
+                {
+                    "x": -117.737352,
+                    "y": 33.677739
+                },
+                {
+                    "x": -117.73702,
+                    "y": 33.677952
+                },
+                {
+                    "x": -117.736746,
+                    "y": 33.678191
+                }
+            ],
+            "speedKMH": 0,
+            "type": "NONE",
+            "blockingAlertID": 686650008,
+            "blockExpiration": 1767254340000,
+            "uuid": 122653902,
+            "endNode": "",
+            "speed": 0,
+            "segments": [
+                {
+                    "fromNode": 504953223,
+                    "ID": 509116990,
+                    "toNode": 506248384,
+                    "isForward": true
+                }
+            ],
+            "street": "Bosque",
+            "id": 122653902,
+            "blockStartTime": 1746897120000,
+            "blockUpdate": 1746897155586,
+            "severity": 5,
+            "level": 5,
+            "blockType": "ROAD_CLOSED_EVENT",
+            "length": 313,
+            "turnType": "NONE",
+            "blockingAlertUuid": "2f1036fe-3d96-4724-ac0d-718bd190ca45",
+            "roadType": 1,
+            "delay": -1,
+            "blockDescription": "Construction",
+            "updateMillis": 1757489638623,
+            "causeAlert": {
+                "reportBy": "taco909",
+                "country": "US",
+                "inscale": false,
+                "city": "Irvine, CA",
+                "reportRating": 5,
+                "reportByMunicipalityUser": "false",
+                "confidence": 4,
+                "reliability": 10,
+                "type": "ROAD_CLOSED",
+                "fromNodeId": 504953223,
+                "uuid": "2f1036fe-3d96-4724-ac0d-718bd190ca45",
+                "speed": 0,
+                "reportMood": 0,
+                "roadType": 1,
+                "magvar": 97,
+                "subtype": "ROAD_CLOSED_EVENT",
+                "street": "Bosque",
+                "additionalInfo": "",
+                "wazeData": "usa,-117.739790900936,33.677858174801884,2f1036fe-3d96-4724-ac0d-718bd190ca45",
+                "toNodeId": 506248384,
+                "reportDescription": "",
+                "location": {
+                    "x": -117.73979,
+                    "y": 33.677858
+                },
+                "id": "alert-686650008/2f1036fe-3d96-4724-ac0d-718bd190ca45",
+                "pubMillis": 1746897155000
+            },
+            "pubMillis": 1757392781654
+        },
+        {
+            "country": "US",
+            "city": "Newport Beach, CA",
+            "line": [
+                {
+                    "x": -117.865794,
+                    "y": 33.655756
+                },
+                {
+                    "x": -117.865746,
+                    "y": 33.655675
+                },
+                {
+                    "x": -117.864903,
+                    "y": 33.655039
+                },
+                {
+                    "x": -117.86435,
+                    "y": 33.654502
+                },
+                {
+                    "x": -117.863927,
+                    "y": 33.653856
+                },
+                {
+                    "x": -117.863478,
+                    "y": 33.652957
+                },
+                {
+                    "x": -117.862417,
+                    "y": 33.650311
+                },
+                {
+                    "x": -117.862112,
+                    "y": 33.649714
+                }
+            ],
+            "speedKMH": 0,
+            "type": "NONE",
+            "blockingAlertID": 1073912122,
+            "blockExpiration": 1757505600000,
+            "uuid": 158449264,
+            "endNode": "University Dr",
+            "speed": 0,
+            "segments": [
+                {
+                    "fromNode": 52766774,
+                    "ID": 525586336,
+                    "toNode": 513993474,
+                    "isForward": true
+                }
+            ],
+            "street": "Exit 14B: University Dr",
+            "id": 158449264,
+            "blockStartTime": 1757480400000,
+            "blockUpdate": 1757437205977,
+            "severity": 5,
+            "level": 5,
+            "blockType": "NO_SUBTYPE",
+            "length": 765,
+            "turnType": "NONE",
+            "blockingAlertUuid": "3861dbeb-6ebb-4403-9ccd-b542a3858117",
+            "roadType": 4,
+            "delay": -1,
+            "blockDescription": "CA-73 S Ramp Works",
+            "updateMillis": 1757489638479,
+            "causeAlert": {
+                "reportBy": "Waze_roadclosures",
+                "country": "US",
+                "inscale": false,
+                "city": "Newport Beach, CA",
+                "reportRating": 5,
+                "reportByMunicipalityUser": "false",
+                "confidence": 0,
+                "reliability": 6,
+                "type": "ROAD_CLOSED",
+                "fromNodeId": 52766774,
+                "uuid": "3861dbeb-6ebb-4403-9ccd-b542a3858117",
+                "speed": 0,
+                "reportMood": 0,
+                "roadType": 4,
+                "magvar": 154,
+                "subtype": "",
+                "street": "Exit 14B: University Dr",
+                "additionalInfo": "",
+                "wazeData": "usa,-117.86579460864336,33.65575643195951,3861dbeb-6ebb-4403-9ccd-b542a3858117",
+                "toNodeId": 513993474,
+                "reportDescription": "",
+                "location": {
+                    "x": -117.865794,
+                    "y": 33.655756
+                },
+                "id": "alert-1073912122/3861dbeb-6ebb-4403-9ccd-b542a3858117",
+                "pubMillis": 1757437205000
+            },
+            "pubMillis": 1757480540385
+        },
+        {
+            "severity": 5,
+            "country": "US",
+            "level": 2,
+            "city": "Irvine, CA",
+            "line": [
+                {
+                    "x": -117.855568,
+                    "y": 33.685558
+                },
+                {
+                    "x": -117.856002,
+                    "y": 33.684902
+                },
+                {
+                    "x": -117.856472,
+                    "y": 33.68409
+                },
+                {
+                    "x": -117.856884,
+                    "y": 33.683312
+                },
+                {
+                    "x": -117.857346,
+                    "y": 33.682561
+                },
+                {
+                    "x": -117.85782,
+                    "y": 33.681947
+                },
+                {
+                    "x": -117.858147,
+                    "y": 33.681474
+                },
+                {
+                    "x": -117.858904,
+                    "y": 33.680332
+                },
+                {
+                    "x": -117.860611,
+                    "y": 33.677714
+                }
+            ],
+            "speedKMH": 20.04,
+            "length": 989,
+            "turnType": "NONE",
+            "type": "NONE",
+            "uuid": 158872828,
+            "endNode": "MacArthur Blvd",
+            "speed": 5.566666666666666,
+            "segments": [
+                {
+                    "fromNode": 521689476,
+                    "ID": 538596627,
+                    "toNode": 5656740,
+                    "isForward": false
+                },
+                {
+                    "fromNode": 5656740,
+                    "ID": 57798527,
+                    "toNode": 58976629,
+                    "isForward": false
+                },
+                {
+                    "fromNode": 58976629,
+                    "ID": 76444702,
+                    "toNode": 58548532,
+                    "isForward": true
+                }
+            ],
+            "roadType": 6,
+            "delay": 88,
+            "updateMillis": 1757489638549,
+            "street": "MacArthur Blvd",
+            "id": 158872828,
+            "pubMillis": 1757489303903
+        },
+        {
+            "country": "US",
+            "city": "Irvine, CA",
+            "line": [
+                {
+                    "x": -117.741106,
+                    "y": 33.676969
+                },
+                {
+                    "x": -117.74081,
+                    "y": 33.677204
+                },
+                {
+                    "x": -117.740339,
+                    "y": 33.67746
+                },
+                {
+                    "x": -117.73999,
+                    "y": 33.677673
+                },
+                {
+                    "x": -117.73979,
+                    "y": 33.677858
+                }
+            ],
+            "speedKMH": 0,
+            "type": "NONE",
+            "blockingAlertID": 686619759,
+            "blockExpiration": 1767254340000,
+            "uuid": 122641224,
+            "endNode": "Bosque",
+            "speed": 0,
+            "segments": [
+                {
+                    "fromNode": 506248393,
+                    "ID": 87934618,
+                    "toNode": 504953223,
+                    "isForward": true
+                }
+            ],
+            "street": "Beacon",
+            "id": 122641224,
+            "blockStartTime": 1746897120000,
+            "blockUpdate": 1746897155552,
+            "severity": 5,
+            "level": 5,
+            "blockType": "ROAD_CLOSED_EVENT",
+            "length": 158,
+            "turnType": "NONE",
+            "blockingAlertUuid": "6c68ec2f-19db-4d6d-85ed-419e020f7cab",
+            "roadType": 1,
+            "delay": -1,
+            "blockDescription": "Construction",
+            "updateMillis": 1757489638638,
+            "causeAlert": {
+                "reportBy": "taco909",
+                "country": "US",
+                "inscale": false,
+                "city": "Irvine, CA",
+                "reportRating": 5,
+                "reportByMunicipalityUser": "false",
+                "confidence": 5,
+                "reliability": 10,
+                "type": "ROAD_CLOSED",
+                "fromNodeId": 506248393,
+                "uuid": "6c68ec2f-19db-4d6d-85ed-419e020f7cab",
+                "speed": 0,
+                "reportMood": 0,
+                "roadType": 1,
+                "magvar": 46,
+                "subtype": "ROAD_CLOSED_EVENT",
+                "street": "Beacon",
+                "additionalInfo": "",
+                "wazeData": "usa,-117.74110612702,33.67696991864097,6c68ec2f-19db-4d6d-85ed-419e020f7cab",
+                "toNodeId": 504953223,
+                "reportDescription": "",
+                "location": {
+                    "x": -117.741106,
+                    "y": 33.676969
+                },
+                "id": "alert-686619759/6c68ec2f-19db-4d6d-85ed-419e020f7cab",
+                "pubMillis": 1746897155000
+            },
+            "pubMillis": 1757392781747
+        },
+        {
+            "country": "US",
+            "city": "Anaheim, CA",
+            "line": [
+                {
+                    "x": -117.877593,
+                    "y": 33.807909
+                },
+                {
+                    "x": -117.877582,
+                    "y": 33.806923
+                }
+            ],
+            "speedKMH": 0,
+            "type": "NONE",
+            "blockingAlertID": 577470205,
+            "blockExpiration": 1782975540000,
+            "uuid": 122651142,
+            "speed": 0,
+            "segments": [
+                {
+                    "fromNode": 57107200,
+                    "ID": 75851364,
+                    "toNode": 58323868,
+                    "isForward": true
+                }
+            ],
+            "street": "S Douglass Rd",
+            "id": 122651142,
+            "blockStartTime": 1751384280000,
+            "blockUpdate": 1751384341519,
+            "severity": 5,
+            "level": 5,
+            "blockType": "ROAD_CLOSED_EVENT",
+            "length": 109,
+            "turnType": "NONE",
+            "blockingAlertUuid": "3c76a27c-74ba-4493-b1a2-c3d86e7b5818",
+            "roadType": 7,
+            "delay": -1,
+            "blockDescription": "Permanent Closure",
+            "updateMillis": 1757489638705,
+            "causeAlert": {
+                "country": "US",
+                "city": "Anaheim, CA",
+                "reportRating": 0,
+                "reportByMunicipalityUser": "false",
+                "reliability": 10,
+                "type": "ROAD_CLOSED",
+                "fromNodeId": 57107200,
+                "uuid": "3c76a27c-74ba-4493-b1a2-c3d86e7b5818",
+                "speed": 0,
+                "reportMood": 0,
+                "subtype": "ROAD_CLOSED_EVENT",
+                "provider": "Honda Center",
+                "street": "S Douglass Rd",
+                "providerId": "",
+                "additionalInfo": "",
+                "toNodeId": 58323868,
+                "id": "alert-577470205/3c76a27c-74ba-4493-b1a2-c3d86e7b5818",
+                "reportBy": "Honda Center",
+                "inscale": true,
+                "confidence": 4,
+                "roadType": 7,
+                "magvar": 179,
+                "wazeData": "usa,-117.87759352138225,33.80790977857013,3c76a27c-74ba-4493-b1a2-c3d86e7b5818",
+                "reportDescription": "",
+                "location": {
+                    "x": -117.877593,
+                    "y": 33.807909
+                },
+                "pubMillis": 1751384341000
+            },
+            "pubMillis": 1757392782076
+        },
+        {
+            "country": "US",
+            "city": "Irvine, CA",
+            "line": [
+                {
+                    "x": -117.789559,
+                    "y": 33.722746
+                },
+                {
+                    "x": -117.789676,
+                    "y": 33.722623
+                },
+                {
+                    "x": -117.789788,
+                    "y": 33.722507
+                },
+                {
+                    "x": -117.789907,
+                    "y": 33.722383
+                },
+                {
+                    "x": -117.790051,
+                    "y": 33.722232
+                },
+                {
+                    "x": -117.790113,
+                    "y": 33.72219
+                }
+            ],
+            "speedKMH": 0,
+            "type": "NONE",
+            "blockingAlertID": 571035241,
+            "blockExpiration": 1777964340000,
+            "uuid": 1877844134,
+            "speed": 0,
+            "segments": [
+                {
+                    "fromNode": 53881183,
+                    "ID": 538625539,
+                    "toNode": 509236183,
+                    "isForward": false
+                }
+            ],
+            "street": "",
+            "id": 1877844134,
+            "blockStartTime": 1743777300000,
+            "blockUpdate": 1743777369228,
+            "severity": 5,
+            "level": 5,
+            "blockType": "ROAD_CLOSED_EVENT",
+            "length": 80,
+            "turnType": "NONE",
+            "blockingAlertUuid": "46a84d2b-54a9-4d8c-964c-90d81c3884b6",
+            "roadType": 20,
+            "delay": -1,
+            "blockDescription": "Construction - Report when open",
+            "updateMillis": 1757489638905,
+            "causeAlert": {
+                "reportBy": "ojlaw",
+                "country": "US",
+                "inscale": false,
+                "city": "Irvine, CA",
+                "reportRating": 5,
+                "reportByMunicipalityUser": "false",
+                "confidence": 2,
+                "reliability": 10,
+                "type": "ROAD_CLOSED",
+                "fromNodeId": 53881183,
+                "uuid": "46a84d2b-54a9-4d8c-964c-90d81c3884b6",
+                "speed": 0,
+                "reportMood": 0,
+                "roadType": 20,
+                "magvar": 219,
+                "subtype": "ROAD_CLOSED_EVENT",
+                "additionalInfo": "",
+                "wazeData": "usa,-117.78955955315153,33.72274635223514,46a84d2b-54a9-4d8c-964c-90d81c3884b6",
+                "toNodeId": 509236183,
+                "reportDescription": "",
+                "location": {
+                    "x": -117.789559,
+                    "y": 33.722746
+                },
+                "id": "alert-571035241/46a84d2b-54a9-4d8c-964c-90d81c3884b6",
+                "pubMillis": 1743777369000
+            },
+            "pubMillis": 1756269475073
+        },
+        {
+            "country": "US",
+            "city": "Anaheim, CA",
+            "line": [
+                {
+                    "x": -117.877605,
+                    "y": 33.808959
+                },
+                {
+                    "x": -117.877593,
+                    "y": 33.807909
+                }
+            ],
+            "speedKMH": 0,
+            "type": "NONE",
+            "blockingAlertID": 577465879,
+            "blockExpiration": 1782975540000,
+            "uuid": 122520926,
+            "speed": 0,
+            "segments": [
+                {
+                    "fromNode": 5612507,
+                    "ID": 72991094,
+                    "toNode": 57107200,
+                    "isForward": true
+                }
+            ],
+            "street": "S Douglass Rd",
+            "id": 122520926,
+            "blockStartTime": 1751384280000,
+            "blockUpdate": 1751384341243,
+            "severity": 5,
+            "level": 5,
+            "blockType": "ROAD_CLOSED_EVENT",
+            "length": 116,
+            "turnType": "NONE",
+            "blockingAlertUuid": "620eba66-07f1-4b2a-85ce-f59a864dafef",
+            "roadType": 7,
+            "delay": -1,
+            "blockDescription": "Permanent Closure",
+            "updateMillis": 1757489638582,
+            "causeAlert": {
+                "country": "US",
+                "city": "Anaheim, CA",
+                "reportRating": 0,
+                "reportByMunicipalityUser": "false",
+                "reliability": 10,
+                "type": "ROAD_CLOSED",
+                "fromNodeId": 5612507,
+                "uuid": "620eba66-07f1-4b2a-85ce-f59a864dafef",
+                "speed": 0,
+                "reportMood": 0,
+                "subtype": "ROAD_CLOSED_EVENT",
+                "provider": "Honda Center",
+                "street": "S Douglass Rd",
+                "providerId": "",
+                "additionalInfo": "",
+                "toNodeId": 57107200,
+                "id": "alert-577465879/620eba66-07f1-4b2a-85ce-f59a864dafef",
+                "reportBy": "Honda Center",
+                "inscale": true,
+                "confidence": 3,
+                "roadType": 7,
+                "magvar": 179,
+                "wazeData": "usa,-117.87760522818783,33.80895970438555,620eba66-07f1-4b2a-85ce-f59a864dafef",
+                "reportDescription": "",
+                "location": {
+                    "x": -117.877605,
+                    "y": 33.808959
+                },
+                "pubMillis": 1751384341000
+            },
+            "pubMillis": 1757392781698
+        },
+        {
+            "country": "US",
+            "city": "Irvine, CA",
+            "line": [
+                {
+                    "x": -117.73979,
+                    "y": 33.677858
+                },
+                {
+                    "x": -117.739533,
+                    "y": 33.678181
+                },
+                {
+                    "x": -117.739393,
+                    "y": 33.678485
+                },
+                {
+                    "x": -117.739189,
+                    "y": 33.678876
+                },
+                {
+                    "x": -117.738848,
+                    "y": 33.679267
+                }
+            ],
+            "speedKMH": 0,
+            "type": "NONE",
+            "blockingAlertID": 686633256,
+            "blockExpiration": 1767254340000,
+            "uuid": 122513182,
+            "endNode": "Great Park Blvd",
+            "speed": 0,
+            "segments": [
+                {
+                    "fromNode": 504953223,
+                    "ID": 509117131,
+                    "toNode": 504812066,
+                    "isForward": true
+                }
+            ],
+            "street": "Beacon",
+            "id": 122513182,
+            "blockStartTime": 1746897120000,
+            "blockUpdate": 1746897155649,
+            "severity": 5,
+            "level": 5,
+            "blockType": "ROAD_CLOSED_EVENT",
+            "length": 180,
+            "turnType": "NONE",
+            "blockingAlertUuid": "70b1cfe6-c04a-4890-850d-9b5919f4f0e0",
+            "roadType": 1,
+            "delay": -1,
+            "blockDescription": "Construction",
+            "updateMillis": 1757489638578,
+            "causeAlert": {
+                "reportBy": "taco909",
+                "country": "US",
+                "inscale": false,
+                "city": "Irvine, CA",
+                "reportRating": 5,
+                "reportByMunicipalityUser": "false",
+                "confidence": 3,
+                "reliability": 10,
+                "type": "ROAD_CLOSED",
+                "fromNodeId": 504953223,
+                "uuid": "70b1cfe6-c04a-4890-850d-9b5919f4f0e0",
+                "speed": 0,
+                "reportMood": 0,
+                "roadType": 1,
+                "magvar": 357,
+                "subtype": "ROAD_CLOSED_EVENT",
+                "street": "Beacon",
+                "additionalInfo": "",
+                "wazeData": "usa,-117.739790900936,33.677858174801884,70b1cfe6-c04a-4890-850d-9b5919f4f0e0",
+                "toNodeId": 504812066,
+                "reportDescription": "",
+                "location": {
+                    "x": -117.73979,
+                    "y": 33.677858
+                },
+                "id": "alert-686633256/70b1cfe6-c04a-4890-850d-9b5919f4f0e0",
+                "pubMillis": 1746897155000
+            },
+            "pubMillis": 1757392781603
+        },
+        {
+            "country": "US",
+            "city": "Irvine, CA",
+            "line": [
+                {
+                    "x": -117.790113,
+                    "y": 33.72219
+                },
+                {
+                    "x": -117.790051,
+                    "y": 33.722232
+                },
+                {
+                    "x": -117.789907,
+                    "y": 33.722383
+                },
+                {
+                    "x": -117.789788,
+                    "y": 33.722507
+                },
+                {
+                    "x": -117.789676,
+                    "y": 33.722623
+                },
+                {
+                    "x": -117.789559,
+                    "y": 33.722746
+                }
+            ],
+            "speedKMH": 0,
+            "type": "NONE",
+            "blockingAlertID": 571022290,
+            "blockExpiration": 1777964340000,
+            "uuid": 1814076724,
+            "speed": 0,
+            "segments": [
+                {
+                    "fromNode": 509236183,
+                    "ID": 538625539,
+                    "toNode": 53881183,
+                    "isForward": true
+                }
+            ],
+            "street": "",
+            "id": 1814076724,
+            "blockStartTime": 1743777300000,
+            "blockUpdate": 1743777369190,
+            "severity": 5,
+            "level": 5,
+            "blockType": "ROAD_CLOSED_EVENT",
+            "length": 80,
+            "turnType": "NONE",
+            "blockingAlertUuid": "07c1bb7d-bfed-468b-ba6a-00b5ee3ab247",
+            "roadType": 20,
+            "delay": -1,
+            "blockDescription": "Construction - Report when open",
+            "updateMillis": 1757489638517,
+            "causeAlert": {
+                "reportBy": "ojlaw",
+                "country": "US",
+                "inscale": false,
+                "city": "Irvine, CA",
+                "reportRating": 5,
+                "reportByMunicipalityUser": "false",
+                "confidence": 5,
+                "reliability": 10,
+                "type": "ROAD_CLOSED",
+                "fromNodeId": 509236183,
+                "uuid": "07c1bb7d-bfed-468b-ba6a-00b5ee3ab247",
+                "speed": 0,
+                "reportMood": 0,
+                "roadType": 20,
+                "magvar": 51,
+                "subtype": "ROAD_CLOSED_EVENT",
+                "additionalInfo": "",
+                "wazeData": "usa,-117.79011372870875,33.72219010514834,07c1bb7d-bfed-468b-ba6a-00b5ee3ab247",
+                "toNodeId": 53881183,
+                "reportDescription": "",
+                "location": {
+                    "x": -117.790113,
+                    "y": 33.72219
+                },
+                "id": "alert-571022290/07c1bb7d-bfed-468b-ba6a-00b5ee3ab247",
+                "pubMillis": 1743777369000
+            },
+            "pubMillis": 1756107532053
+        },
+        {
+            "country": "US",
+            "city": "Irvine, CA",
+            "line": [
+                {
+                    "x": -117.732654,
+                    "y": 33.652469
+                },
+                {
+                    "x": -117.732697,
+                    "y": 33.652086
+                },
+                {
+                    "x": -117.732702,
+                    "y": 33.651877
+                },
+                {
+                    "x": -117.732702,
+                    "y": 33.651667
+                },
+                {
+                    "x": -117.732674,
+                    "y": 33.651568
+                },
+                {
+                    "x": -117.732633,
+                    "y": 33.651477
+                },
+                {
+                    "x": -117.732533,
+                    "y": 33.651352
+                },
+                {
+                    "x": -117.732417,
+                    "y": 33.651259
+                },
+                {
+                    "x": -117.732003,
+                    "y": 33.650976
+                }
+            ],
+            "speedKMH": 0,
+            "type": "NONE",
+            "blockingAlertID": 1855679139,
+            "blockExpiration": 1767254340000,
+            "uuid": 122650970,
+            "speed": 0,
+            "segments": [
+                {
+                    "fromNode": 517849510,
+                    "ID": 532181752,
+                    "toNode": 515277079,
+                    "isForward": true
+                }
+            ],
+            "street": "Launch Ave",
+            "id": 122650970,
+            "blockStartTime": 1733432460000,
+            "blockUpdate": 1733432534860,
+            "severity": 5,
+            "level": 5,
+            "blockType": "ROAD_CLOSED_EVENT",
+            "length": 192,
+            "turnType": "NONE",
+            "blockingAlertUuid": "2c6a18f3-99f1-4a5c-bc30-4d3ca40a66c1",
+            "roadType": 1,
+            "delay": -1,
+            "blockDescription": "Construction - Report when open",
+            "updateMillis": 1757489638593,
+            "causeAlert": {
+                "reportBy": "ojlaw",
+                "country": "US",
+                "inscale": false,
+                "city": "Irvine, CA",
+                "reportRating": 5,
+                "reportByMunicipalityUser": "false",
+                "confidence": 5,
+                "reliability": 10,
+                "type": "ROAD_CLOSED",
+                "fromNodeId": 517849510,
+                "uuid": "2c6a18f3-99f1-4a5c-bc30-4d3ca40a66c1",
+                "speed": 0,
+                "reportMood": 0,
+                "roadType": 1,
+                "magvar": 160,
+                "subtype": "ROAD_CLOSED_EVENT",
+                "street": "Launch Ave",
+                "additionalInfo": "",
+                "wazeData": "usa,-117.73265408061263,33.65246959725749,2c6a18f3-99f1-4a5c-bc30-4d3ca40a66c1",
+                "toNodeId": 515277079,
+                "reportDescription": "",
+                "location": {
+                    "x": -117.732654,
+                    "y": 33.652469
+                },
+                "id": "alert-1855679139/2c6a18f3-99f1-4a5c-bc30-4d3ca40a66c1",
+                "pubMillis": 1733432534000
+            },
+            "pubMillis": 1757392781734
+        },
+        {
+            "country": "US",
+            "city": "Anaheim, CA",
+            "line": [
+                {
+                    "x": -117.877593,
+                    "y": 33.807909
+                },
+                {
+                    "x": -117.877605,
+                    "y": 33.808959
+                }
+            ],
+            "speedKMH": 0,
+            "type": "NONE",
+            "blockingAlertID": 577448831,
+            "blockExpiration": 1782975540000,
+            "uuid": 122633174,
+            "endNode": "Stanley Cup Way",
+            "speed": 0,
+            "segments": [
+                {
+                    "fromNode": 57107200,
+                    "ID": 72991094,
+                    "toNode": 5612507,
+                    "isForward": false
+                }
+            ],
+            "street": "S Douglass Rd",
+            "id": 122633174,
+            "blockStartTime": 1751384280000,
+            "blockUpdate": 1751384341760,
+            "severity": 5,
+            "level": 5,
+            "blockType": "ROAD_CLOSED_EVENT",
+            "length": 116,
+            "turnType": "NONE",
+            "blockingAlertUuid": "402fee48-d1db-43d5-8af0-dbc68cf5ab2d",
+            "roadType": 7,
+            "delay": -1,
+            "blockDescription": "Permanent Closure",
+            "updateMillis": 1757489638600,
+            "causeAlert": {
+                "country": "US",
+                "city": "Anaheim, CA",
+                "reportRating": 0,
+                "reportByMunicipalityUser": "false",
+                "reliability": 7,
+                "type": "ROAD_CLOSED",
+                "fromNodeId": 57107200,
+                "uuid": "402fee48-d1db-43d5-8af0-dbc68cf5ab2d",
+                "speed": 0,
+                "reportMood": 0,
+                "subtype": "ROAD_CLOSED_EVENT",
+                "provider": "Honda Center",
+                "street": "S Douglass Rd",
+                "providerId": "",
+                "additionalInfo": "",
+                "toNodeId": 5612507,
+                "id": "alert-577448831/402fee48-d1db-43d5-8af0-dbc68cf5ab2d",
+                "reportBy": "Honda Center",
+                "inscale": true,
+                "confidence": 0,
+                "roadType": 7,
+                "magvar": 359,
+                "wazeData": "usa,-117.87759352138225,33.80790977857013,402fee48-d1db-43d5-8af0-dbc68cf5ab2d",
+                "reportDescription": "",
+                "location": {
+                    "x": -117.877593,
+                    "y": 33.807909
+                },
+                "pubMillis": 1751384341000
+            },
+            "pubMillis": 1757392781759
+        },
+        {
+            "country": "US",
+            "city": "Santa Ana, CA",
+            "line": [
+                {
+                    "x": -117.858994,
+                    "y": 33.701449
+                },
+                {
+                    "x": -117.860024,
+                    "y": 33.700596
+                },
+                {
+                    "x": -117.860196,
+                    "y": 33.700483
+                },
+                {
+                    "x": -117.860391,
+                    "y": 33.700383
+                },
+                {
+                    "x": -117.860629,
+                    "y": 33.700289
+                },
+                {
+                    "x": -117.86085,
+                    "y": 33.70024
+                },
+                {
+                    "x": -117.861099,
+                    "y": 33.700218
+                },
+                {
+                    "x": -117.861598,
+                    "y": 33.700234
+                },
+                {
+                    "x": -117.861815,
+                    "y": 33.700223
+                },
+                {
+                    "x": -117.861954,
+                    "y": 33.70019
+                },
+                {
+                    "x": -117.862132,
+                    "y": 33.700155
+                },
+                {
+                    "x": -117.862244,
+                    "y": 33.700077
+                },
+                {
+                    "x": -117.862354,
+                    "y": 33.699972
+                },
+                {
+                    "x": -117.862518,
+                    "y": 33.699769
+                },
+                {
+                    "x": -117.862726,
+                    "y": 33.699536
+                }
+            ],
+            "speedKMH": 0,
+            "type": "NONE",
+            "blockingAlertID": 1073912121,
+            "blockExpiration": 1758283140000,
+            "uuid": 158605864,
+            "endNode": "MacArthur Blvd",
+            "speed": 0,
+            "segments": [
+                {
+                    "fromNode": 50439894,
+                    "ID": 535585666,
+                    "toNode": 519913692,
+                    "isForward": false
+                }
+            ],
+            "street": "Exit 7: MacArthur Blvd / Main St",
+            "id": 158605864,
+            "blockStartTime": 1757480400000,
+            "blockUpdate": 1757437205962,
+            "severity": 5,
+            "level": 5,
+            "blockType": "NO_SUBTYPE",
+            "length": 430,
+            "turnType": "NONE",
+            "blockingAlertUuid": "ebc3e3c5-2ec6-4f9f-b26c-1c23dca49d8d",
+            "roadType": 4,
+            "delay": -1,
+            "blockDescription": "MacArthur Blvd Ramp Works",
+            "updateMillis": 1757489638519,
+            "causeAlert": {
+                "reportBy": "Waze_roadclosures",
+                "country": "US",
+                "inscale": false,
+                "city": "Santa Ana, CA",
+                "reportRating": 5,
+                "reportByMunicipalityUser": "false",
+                "confidence": 0,
+                "reliability": 6,
+                "type": "ROAD_CLOSED",
+                "fromNodeId": 50439894,
+                "uuid": "ebc3e3c5-2ec6-4f9f-b26c-1c23dca49d8d",
+                "speed": 0,
+                "reportMood": 0,
+                "roadType": 4,
+                "magvar": 225,
+                "subtype": "",
+                "street": "Exit 7: MacArthur Blvd / Main St",
+                "additionalInfo": "",
+                "wazeData": "usa,-117.858994,33.701449999999994,ebc3e3c5-2ec6-4f9f-b26c-1c23dca49d8d",
+                "toNodeId": 519913692,
+                "reportDescription": "",
+                "location": {
+                    "x": -117.858994,
+                    "y": 33.701449
+                },
+                "id": "alert-1073912121/ebc3e3c5-2ec6-4f9f-b26c-1c23dca49d8d",
+                "pubMillis": 1757437205000
+            },
+            "pubMillis": 1757480540460
+        },
+        {
+            "country": "US",
+            "city": "Irvine, CA",
+            "line": [
+                {
+                    "x": -117.732654,
+                    "y": 33.652469
+                },
+                {
+                    "x": -117.732624,
+                    "y": 33.652815
+                },
+                {
+                    "x": -117.732577,
+                    "y": 33.652892
+                },
+                {
+                    "x": -117.732487,
+                    "y": 33.652979
+                },
+                {
+                    "x": -117.732415,
+                    "y": 33.653036
+                }
+            ],
+            "speedKMH": 0,
+            "type": "NONE",
+            "blockingAlertID": 1855679140,
+            "blockExpiration": 1767254340000,
+            "uuid": 122485586,
+            "endNode": "FivePoint",
+            "speed": 0,
+            "segments": [
+                {
+                    "fromNode": 517849510,
+                    "ID": 532181751,
+                    "toNode": 515277070,
+                    "isForward": false
+                }
+            ],
+            "street": "Launch Ave",
+            "id": 122485586,
+            "blockStartTime": 1733432460000,
+            "blockUpdate": 1733432534860,
+            "severity": 5,
+            "level": 5,
+            "blockType": "ROAD_CLOSED_EVENT",
+            "length": 70,
+            "turnType": "NONE",
+            "blockingAlertUuid": "408c0bc6-e41e-4cbc-8ef1-0ea7397d5957",
+            "roadType": 1,
+            "delay": -1,
+            "blockDescription": "Construction - Report when open",
+            "updateMillis": 1757489638593,
+            "causeAlert": {
+                "reportBy": "ojlaw",
+                "country": "US",
+                "inscale": false,
+                "city": "Irvine, CA",
+                "reportRating": 5,
+                "reportByMunicipalityUser": "false",
+                "confidence": 3,
+                "reliability": 10,
+                "type": "ROAD_CLOSED",
+                "fromNodeId": 517849510,
+                "uuid": "408c0bc6-e41e-4cbc-8ef1-0ea7397d5957",
+                "speed": 0,
+                "reportMood": 0,
+                "roadType": 1,
+                "magvar": 19,
+                "subtype": "ROAD_CLOSED_EVENT",
+                "street": "Launch Ave",
+                "additionalInfo": "",
+                "wazeData": "usa,-117.73265408061263,33.65246959725749,408c0bc6-e41e-4cbc-8ef1-0ea7397d5957",
+                "toNodeId": 515277070,
+                "reportDescription": "",
+                "location": {
+                    "x": -117.732654,
+                    "y": 33.652469
+                },
+                "id": "alert-1855679140/408c0bc6-e41e-4cbc-8ef1-0ea7397d5957",
+                "pubMillis": 1733432534000
+            },
+            "pubMillis": 1757392781729
+        },
+        {
+            "country": "US",
+            "city": "Irvine, CA",
+            "line": [
+                {
+                    "x": -117.788914,
+                    "y": 33.723429
+                },
+                {
+                    "x": -117.789418,
+                    "y": 33.722895
+                },
+                {
+                    "x": -117.789559,
+                    "y": 33.722746
+                }
+            ],
+            "speedKMH": 0,
+            "type": "NONE",
+            "blockingAlertID": 604411993,
+            "blockExpiration": 1777964340000,
+            "uuid": 1805297722,
+            "speed": 0,
+            "segments": [
+                {
+                    "fromNode": 53881182,
+                    "ID": 538625540,
+                    "toNode": 53881183,
+                    "isForward": true
+                }
+            ],
+            "street": "",
+            "id": 1805297722,
+            "blockStartTime": 1743777300000,
+            "blockUpdate": 1744386112541,
+            "severity": 5,
+            "level": 5,
+            "blockType": "ROAD_CLOSED_EVENT",
+            "length": 97,
+            "turnType": "NONE",
+            "blockingAlertUuid": "bc566370-f63a-4bdb-91b7-3abfeb1c461b",
+            "roadType": 20,
+            "delay": -1,
+            "blockDescription": "Construction - Report when open",
+            "updateMillis": 1757489638853,
+            "causeAlert": {
+                "reportBy": "ojlaw",
+                "country": "US",
+                "inscale": false,
+                "city": "Irvine, CA",
+                "reportRating": 5,
+                "reportByMunicipalityUser": "false",
+                "confidence": 3,
+                "reliability": 10,
+                "type": "ROAD_CLOSED",
+                "fromNodeId": 53881182,
+                "uuid": "bc566370-f63a-4bdb-91b7-3abfeb1c461b",
+                "speed": 0,
+                "reportMood": 0,
+                "roadType": 20,
+                "magvar": 218,
+                "subtype": "ROAD_CLOSED_EVENT",
+                "additionalInfo": "",
+                "wazeData": "usa,-117.78891432638942,33.72342999750135,bc566370-f63a-4bdb-91b7-3abfeb1c461b",
+                "toNodeId": 53881183,
+                "reportDescription": "",
+                "location": {
+                    "x": -117.788914,
+                    "y": 33.723429
+                },
+                "id": "alert-604411993/bc566370-f63a-4bdb-91b7-3abfeb1c461b",
+                "pubMillis": 1744386112000
+            },
+            "pubMillis": 1756072631629
+        },
+        {
+            "country": "US",
+            "city": "Anaheim, CA",
+            "line": [
+                {
+                    "x": -117.877574,
+                    "y": 33.806174
+                },
+                {
+                    "x": -117.877582,
+                    "y": 33.806923
+                }
+            ],
+            "speedKMH": 0,
+            "type": "NONE",
+            "blockingAlertID": 577458372,
+            "blockExpiration": 1782975540000,
+            "uuid": 122634536,
+            "speed": 0,
+            "segments": [
+                {
+                    "fromNode": 5612498,
+                    "ID": 75851365,
+                    "toNode": 58323868,
+                    "isForward": false
+                }
+            ],
+            "street": "S Douglass Rd",
+            "id": 122634536,
+            "blockStartTime": 1751384280000,
+            "blockUpdate": 1751384342510,
+            "severity": 5,
+            "level": 5,
+            "blockType": "ROAD_CLOSED_EVENT",
+            "length": 83,
+            "turnType": "NONE",
+            "blockingAlertUuid": "95b2ded6-d7be-4c08-9e16-06fa4001e46d",
+            "roadType": 7,
+            "delay": -1,
+            "blockDescription": "Permanent Closure",
+            "updateMillis": 1757489638704,
+            "causeAlert": {
+                "country": "US",
+                "city": "Anaheim, CA",
+                "reportRating": 0,
+                "reportByMunicipalityUser": "false",
+                "reliability": 10,
+                "type": "ROAD_CLOSED",
+                "fromNodeId": 5612498,
+                "uuid": "95b2ded6-d7be-4c08-9e16-06fa4001e46d",
+                "speed": 0,
+                "reportMood": 0,
+                "subtype": "ROAD_CLOSED_EVENT",
+                "provider": "Honda Center",
+                "street": "S Douglass Rd",
+                "providerId": "",
+                "additionalInfo": "",
+                "toNodeId": 58323868,
+                "id": "alert-577458372/95b2ded6-d7be-4c08-9e16-06fa4001e46d",
+                "reportBy": "Honda Center",
+                "inscale": true,
+                "confidence": 4,
+                "roadType": 7,
+                "magvar": 359,
+                "wazeData": "usa,-117.87757438279039,33.806174972542294,95b2ded6-d7be-4c08-9e16-06fa4001e46d",
+                "reportDescription": "",
+                "location": {
+                    "x": -117.877574,
+                    "y": 33.806174
+                },
+                "pubMillis": 1751384342000
+            },
+            "pubMillis": 1757392782071
+        },
+        {
+            "country": "US",
+            "city": "Irvine, CA",
+            "line": [
+                {
+                    "x": -117.732003,
+                    "y": 33.650976
+                },
+                {
+                    "x": -117.732417,
+                    "y": 33.651259
+                },
+                {
+                    "x": -117.732533,
+                    "y": 33.651352
+                },
+                {
+                    "x": -117.732633,
+                    "y": 33.651477
+                },
+                {
+                    "x": -117.732674,
+                    "y": 33.651568
+                },
+                {
+                    "x": -117.732702,
+                    "y": 33.651667
+                },
+                {
+                    "x": -117.732702,
+                    "y": 33.651877
+                },
+                {
+                    "x": -117.732697,
+                    "y": 33.652086
+                },
+                {
+                    "x": -117.732654,
+                    "y": 33.652469
+                }
+            ],
+            "speedKMH": 0,
+            "type": "NONE",
+            "blockingAlertID": 1855628147,
+            "blockExpiration": 1767254340000,
+            "uuid": 122641512,
+            "endNode": "FivePoint",
+            "speed": 0,
+            "segments": [
+                {
+                    "fromNode": 515277079,
+                    "ID": 532181752,
+                    "toNode": 517849510,
+                    "isForward": false
+                }
+            ],
+            "street": "Launch Ave",
+            "id": 122641512,
+            "blockStartTime": 1733432460000,
+            "blockUpdate": 1733432534911,
+            "severity": 5,
+            "level": 5,
+            "blockType": "ROAD_CLOSED_EVENT",
+            "length": 192,
+            "turnType": "NONE",
+            "blockingAlertUuid": "a5ef80ab-616a-487a-8af4-26f414dcc68e",
+            "roadType": 1,
+            "delay": -1,
+            "blockDescription": "Construction - Report when open",
+            "updateMillis": 1757489638936,
+            "causeAlert": {
+                "reportBy": "ojlaw",
+                "country": "US",
+                "inscale": false,
+                "city": "Irvine, CA",
+                "reportRating": 5,
+                "reportByMunicipalityUser": "false",
+                "confidence": 5,
+                "reliability": 10,
+                "type": "ROAD_CLOSED",
+                "fromNodeId": 515277079,
+                "uuid": "a5ef80ab-616a-487a-8af4-26f414dcc68e",
+                "speed": 0,
+                "reportMood": 0,
+                "roadType": 1,
+                "magvar": 340,
+                "subtype": "ROAD_CLOSED_EVENT",
+                "street": "Launch Ave",
+                "additionalInfo": "",
+                "wazeData": "usa,-117.73200361945379,33.65097667668903,a5ef80ab-616a-487a-8af4-26f414dcc68e",
+                "toNodeId": 517849510,
+                "reportDescription": "",
+                "location": {
+                    "x": -117.732003,
+                    "y": 33.650976
+                },
+                "id": "alert-1855628147/a5ef80ab-616a-487a-8af4-26f414dcc68e",
+                "pubMillis": 1733432534000
+            },
+            "pubMillis": 1757392782512
+        },
+        {
+            "country": "US",
+            "city": "Irvine, CA",
+            "line": [
+                {
+                    "x": -117.732415,
+                    "y": 33.653036
+                },
+                {
+                    "x": -117.732487,
+                    "y": 33.652979
+                },
+                {
+                    "x": -117.732577,
+                    "y": 33.652892
+                },
+                {
+                    "x": -117.732624,
+                    "y": 33.652815
+                },
+                {
+                    "x": -117.732654,
+                    "y": 33.652469
+                }
+            ],
+            "speedKMH": 0,
+            "type": "NONE",
+            "blockingAlertID": 1855636127,
+            "blockExpiration": 1767254340000,
+            "uuid": 122641510,
+            "speed": 0,
+            "segments": [
+                {
+                    "fromNode": 515277070,
+                    "ID": 532181751,
+                    "toNode": 517849510,
+                    "isForward": true
+                }
+            ],
+            "street": "Launch Ave",
+            "id": 122641510,
+            "blockStartTime": 1733432460000,
+            "blockUpdate": 1733432534807,
+            "severity": 5,
+            "level": 5,
+            "blockType": "ROAD_CLOSED_EVENT",
+            "length": 70,
+            "turnType": "NONE",
+            "blockingAlertUuid": "1cb7440b-2d3d-4507-b94c-c03fa7cc1d2c",
+            "roadType": 1,
+            "delay": -1,
+            "blockDescription": "Construction - Report when open",
+            "updateMillis": 1757489638936,
+            "causeAlert": {
+                "reportBy": "ojlaw",
+                "country": "US",
+                "inscale": false,
+                "city": "Irvine, CA",
+                "reportRating": 5,
+                "reportByMunicipalityUser": "false",
+                "confidence": 5,
+                "reliability": 10,
+                "type": "ROAD_CLOSED",
+                "fromNodeId": 515277070,
+                "uuid": "1cb7440b-2d3d-4507-b94c-c03fa7cc1d2c",
+                "speed": 0,
+                "reportMood": 0,
+                "roadType": 1,
+                "magvar": 199,
+                "subtype": "ROAD_CLOSED_EVENT",
+                "street": "Launch Ave",
+                "additionalInfo": "",
+                "wazeData": "usa,-117.73241534627468,33.653036907021715,1cb7440b-2d3d-4507-b94c-c03fa7cc1d2c",
+                "toNodeId": 517849510,
+                "reportDescription": "",
+                "location": {
+                    "x": -117.732415,
+                    "y": 33.653036
+                },
+                "id": "alert-1855636127/1cb7440b-2d3d-4507-b94c-c03fa7cc1d2c",
+                "pubMillis": 1733432534000
+            },
+            "pubMillis": 1757392782512
+        },
+        {
+            "country": "US",
+            "city": "Anaheim, CA",
+            "line": [
+                {
+                    "x": -117.877582,
+                    "y": 33.806923
+                },
+                {
+                    "x": -117.877593,
+                    "y": 33.807909
+                }
+            ],
+            "speedKMH": 0,
+            "type": "NONE",
+            "blockingAlertID": 577444002,
+            "blockExpiration": 1782975540000,
+            "uuid": 122629348,
+            "speed": 0,
+            "segments": [
+                {
+                    "fromNode": 58323868,
+                    "ID": 75851364,
+                    "toNode": 57107200,
+                    "isForward": false
+                }
+            ],
+            "street": "S Douglass Rd",
+            "id": 122629348,
+            "blockStartTime": 1751384280000,
+            "blockUpdate": 1751384342261,
+            "severity": 5,
+            "level": 5,
+            "blockType": "ROAD_CLOSED_EVENT",
+            "length": 109,
+            "turnType": "NONE",
+            "blockingAlertUuid": "c7bcc2b7-7edd-4f6d-a9a8-c119f5292149",
+            "roadType": 7,
+            "delay": -1,
+            "blockDescription": "Permanent Closure",
+            "updateMillis": 1757489638660,
+            "causeAlert": {
+                "country": "US",
+                "city": "Anaheim, CA",
+                "reportRating": 0,
+                "reportByMunicipalityUser": "false",
+                "reliability": 6,
+                "type": "ROAD_CLOSED",
+                "fromNodeId": 58323868,
+                "uuid": "c7bcc2b7-7edd-4f6d-a9a8-c119f5292149",
+                "speed": 0,
+                "reportMood": 0,
+                "subtype": "ROAD_CLOSED_EVENT",
+                "provider": "Honda Center",
+                "street": "S Douglass Rd",
+                "providerId": "",
+                "additionalInfo": "",
+                "toNodeId": 57107200,
+                "id": "alert-577444002/c7bcc2b7-7edd-4f6d-a9a8-c119f5292149",
+                "reportBy": "Honda Center",
+                "inscale": true,
+                "confidence": 0,
+                "roadType": 7,
+                "magvar": 359,
+                "wazeData": "usa,-117.87758283371794,33.80692361480517,c7bcc2b7-7edd-4f6d-a9a8-c119f5292149",
+                "reportDescription": "",
+                "location": {
+                    "x": -117.877582,
+                    "y": 33.806923
+                },
+                "pubMillis": 1751384342000
+            },
+            "pubMillis": 1757392781993
+        },
+        {
+            "severity": 5,
+            "country": "US",
+            "level": 4,
+            "city": "Irvine, CA",
+            "line": [
+                {
+                    "x": -117.778691,
+                    "y": 33.705406
+                },
+                {
+                    "x": -117.778423,
+                    "y": 33.70501
+                },
+                {
+                    "x": -117.774006,
+                    "y": 33.698215
+                },
+                {
+                    "x": -117.77147,
+                    "y": 33.694356
+                },
+                {
+                    "x": -117.769921,
+                    "y": 33.691966
+                },
+                {
+                    "x": -117.769134,
+                    "y": 33.690789
+                },
+                {
+                    "x": -117.768368,
+                    "y": 33.689603
+                },
+                {
+                    "x": -117.76806,
+                    "y": 33.689136
+                },
+                {
+                    "x": -117.766851,
+                    "y": 33.687287
+                },
+                {
+                    "x": -117.765741,
+                    "y": 33.685546
+                }
+            ],
+            "speedKMH": 13.66,
+            "length": 2509,
+            "turnType": "NONE",
+            "type": "MEDIUM",
+            "uuid": 158803164,
+            "endNode": "to I-5 S",
+            "speed": 3.7944444444444443,
+            "segments": [
+                {
+                    "fromNode": 50262273,
+                    "ID": 61876483,
+                    "toNode": 50617711,
+                    "isForward": true
+                },
+                {
+                    "fromNode": 50617711,
+                    "ID": 537667926,
+                    "toNode": 50170318,
+                    "isForward": true
+                }
+            ],
+            "roadType": 3,
+            "delay": 584,
+            "updateMillis": 1757489638548,
+            "street": "I-5 S",
+            "id": 158803164,
+            "pubMillis": 1757487693773
+        },
+        {
+            "country": "US",
+            "city": "Irvine, CA",
+            "line": [
+                {
+                    "x": -117.73979,
+                    "y": 33.677858
+                },
+                {
+                    "x": -117.73999,
+                    "y": 33.677673
+                },
+                {
+                    "x": -117.740339,
+                    "y": 33.67746
+                },
+                {
+                    "x": -117.74081,
+                    "y": 33.677204
+                },
+                {
+                    "x": -117.741106,
+                    "y": 33.676969
+                }
+            ],
+            "speedKMH": 0,
+            "type": "NONE",
+            "blockingAlertID": 686645395,
+            "blockExpiration": 1767254340000,
+            "uuid": 1325517300,
+            "endNode": "",
+            "speed": 0,
+            "segments": [
+                {
+                    "fromNode": 504953223,
+                    "ID": 87934618,
+                    "toNode": 506248393,
+                    "isForward": false
+                }
+            ],
+            "street": "Beacon",
+            "id": 1325517300,
+            "blockStartTime": 1746897120000,
+            "blockUpdate": 1746897155628,
+            "severity": 5,
+            "level": 5,
+            "blockType": "ROAD_CLOSED_EVENT",
+            "length": 158,
+            "turnType": "NONE",
+            "blockingAlertUuid": "314d603a-f01a-4309-870e-f7acfdf601b0",
+            "roadType": 1,
+            "delay": -1,
+            "blockDescription": "Construction",
+            "updateMillis": 1757489638570,
+            "causeAlert": {
+                "reportBy": "taco909",
+                "country": "US",
+                "inscale": false,
+                "city": "Irvine, CA",
+                "reportRating": 5,
+                "reportByMunicipalityUser": "false",
+                "confidence": 1,
+                "reliability": 8,
+                "type": "ROAD_CLOSED",
+                "fromNodeId": 504953223,
+                "uuid": "314d603a-f01a-4309-870e-f7acfdf601b0",
+                "speed": 0,
+                "reportMood": 0,
+                "roadType": 1,
+                "magvar": 259,
+                "subtype": "ROAD_CLOSED_EVENT",
+                "street": "Beacon",
+                "additionalInfo": "",
+                "wazeData": "usa,-117.739790900936,33.677858174801884,314d603a-f01a-4309-870e-f7acfdf601b0",
+                "toNodeId": 506248393,
+                "reportDescription": "",
+                "location": {
+                    "x": -117.73979,
+                    "y": 33.677858
+                },
+                "id": "alert-686645395/314d603a-f01a-4309-870e-f7acfdf601b0",
+                "pubMillis": 1746897155000
+            },
+            "pubMillis": 1754910450845
+        },
+        {
+            "severity": 5,
+            "country": "US",
+            "level": 2,
+            "city": "Orange, CA",
+            "line": [
+                {
+                    "x": -117.890826,
+                    "y": 33.785739
+                },
+                {
+                    "x": -117.890842,
+                    "y": 33.787382
+                },
+                {
+                    "x": -117.890762,
+                    "y": 33.787747
+                },
+                {
+                    "x": -117.890743,
+                    "y": 33.788903
+                }
+            ],
+            "speedKMH": 10.45,
+            "length": 351,
+            "turnType": "NONE",
+            "type": "NONE",
+            "uuid": 158885902,
+            "endNode": "W Chapman Ave",
+            "speed": 2.9027777777777777,
+            "segments": [
+                {
+                    "fromNode": 58992107,
+                    "ID": 81236200,
+                    "toNode": 59094724,
+                    "isForward": true
+                },
+                {
+                    "fromNode": 59094724,
+                    "ID": 537358414,
+                    "toNode": 5685809,
+                    "isForward": true
+                }
+            ],
+            "roadType": 7,
+            "delay": 76,
+            "updateMillis": 1757489638576,
+            "street": "The City Dr S",
+            "id": 158885902,
+            "pubMillis": 1757489104493
+        },
+        {
+            "country": "US",
+            "city": "Irvine, CA",
+            "line": [
+                {
+                    "x": -117.736746,
+                    "y": 33.678191
+                },
+                {
+                    "x": -117.73702,
+                    "y": 33.677952
+                },
+                {
+                    "x": -117.737352,
+                    "y": 33.677739
+                },
+                {
+                    "x": -117.737772,
+                    "y": 33.677614
+                },
+                {
+                    "x": -117.738234,
+                    "y": 33.677551
+                },
+                {
+                    "x": -117.738544,
+                    "y": 33.677519
+                },
+                {
+                    "x": -117.738888,
+                    "y": 33.677534
+                },
+                {
+                    "x": -117.739327,
+                    "y": 33.677619
+                },
+                {
+                    "x": -117.73979,
+                    "y": 33.677858
+                }
+            ],
+            "speedKMH": 0,
+            "type": "NONE",
+            "blockingAlertID": 686633255,
+            "blockExpiration": 1767254340000,
+            "uuid": 122521082,
+            "endNode": "Beacon",
+            "speed": 0,
+            "segments": [
+                {
+                    "fromNode": 506248384,
+                    "ID": 509116990,
+                    "toNode": 504953223,
+                    "isForward": false
+                }
+            ],
+            "street": "Bosque",
+            "id": 122521082,
+            "blockStartTime": 1746897120000,
+            "blockUpdate": 1746897155649,
+            "severity": 5,
+            "level": 5,
+            "blockType": "ROAD_CLOSED_EVENT",
+            "length": 313,
+            "turnType": "NONE",
+            "blockingAlertUuid": "4a5551d5-951f-4d67-b238-de77a43e7d4d",
+            "roadType": 1,
+            "delay": -1,
+            "blockDescription": "Construction",
+            "updateMillis": 1757489638690,
+            "causeAlert": {
+                "reportBy": "taco909",
+                "country": "US",
+                "inscale": false,
+                "city": "Irvine, CA",
+                "reportRating": 5,
+                "reportByMunicipalityUser": "false",
+                "confidence": 5,
+                "reliability": 10,
+                "type": "ROAD_CLOSED",
+                "fromNodeId": 506248384,
+                "uuid": "4a5551d5-951f-4d67-b238-de77a43e7d4d",
+                "speed": 0,
+                "reportMood": 0,
+                "roadType": 1,
+                "magvar": 224,
+                "subtype": "ROAD_CLOSED_EVENT",
+                "street": "Bosque",
+                "additionalInfo": "",
+                "wazeData": "usa,-117.73674691136999,33.678191578566015,4a5551d5-951f-4d67-b238-de77a43e7d4d",
+                "toNodeId": 504953223,
+                "reportDescription": "",
+                "location": {
+                    "x": -117.736746,
+                    "y": 33.678191
+                },
+                "id": "alert-686633255/4a5551d5-951f-4d67-b238-de77a43e7d4d",
+                "pubMillis": 1746897155000
+            },
+            "pubMillis": 1757392781791
+        },
+        {
+            "country": "US",
+            "city": "Irvine, CA",
+            "line": [
+                {
+                    "x": -117.788324,
+                    "y": 33.724018
+                },
+                {
+                    "x": -117.788914,
+                    "y": 33.723429
+                }
+            ],
+            "speedKMH": 0,
+            "type": "NONE",
+            "blockingAlertID": 604411994,
+            "blockExpiration": 1777964340000,
+            "uuid": 1814078936,
+            "speed": 0,
+            "segments": [
+                {
+                    "fromNode": 52924473,
+                    "ID": 64114345,
+                    "toNode": 53881182,
+                    "isForward": true
+                }
+            ],
+            "street": "Market Pl",
+            "id": 1814078936,
+            "blockStartTime": 1743777300000,
+            "blockUpdate": 1744386112541,
+            "severity": 5,
+            "level": 5,
+            "blockType": "ROAD_CLOSED_EVENT",
+            "length": 85,
+            "turnType": "NONE",
+            "blockingAlertUuid": "e429e6cd-50eb-4748-ad1b-de7ead7c1481",
+            "roadType": 20,
+            "delay": -1,
+            "blockDescription": "Construction - Report when open",
+            "updateMillis": 1757489638603,
+            "causeAlert": {
+                "reportBy": "ojlaw",
+                "country": "US",
+                "inscale": false,
+                "city": "Irvine, CA",
+                "reportRating": 5,
+                "reportByMunicipalityUser": "false",
+                "confidence": 4,
+                "reliability": 10,
+                "type": "ROAD_CLOSED",
+                "fromNodeId": 52924473,
+                "uuid": "e429e6cd-50eb-4748-ad1b-de7ead7c1481",
+                "speed": 0,
+                "reportMood": 0,
+                "roadType": 20,
+                "magvar": 220,
+                "subtype": "ROAD_CLOSED_EVENT",
+                "street": "Market Pl",
+                "additionalInfo": "",
+                "wazeData": "usa,-117.78832435608,33.724018976571,e429e6cd-50eb-4748-ad1b-de7ead7c1481",
+                "toNodeId": 53881182,
+                "reportDescription": "",
+                "location": {
+                    "x": -117.788324,
+                    "y": 33.724018
+                },
+                "id": "alert-604411994/e429e6cd-50eb-4748-ad1b-de7ead7c1481",
+                "pubMillis": 1744386112000
+            },
+            "pubMillis": 1756107467058
+        },
+        {
+            "country": "US",
+            "city": "Irvine, CA",
+            "line": [
+                {
+                    "x": -117.788914,
+                    "y": 33.723429
+                },
+                {
+                    "x": -117.788324,
+                    "y": 33.724018
+                }
+            ],
+            "speedKMH": 0,
+            "type": "NONE",
+            "blockingAlertID": 604415487,
+            "blockExpiration": 1777964340000,
+            "uuid": 123289824,
+            "endNode": "Bryan Ave",
+            "speed": 0,
+            "segments": [
+                {
+                    "fromNode": 53881182,
+                    "ID": 64114345,
+                    "toNode": 52924473,
+                    "isForward": false
+                }
+            ],
+            "street": "Market Pl",
+            "id": 123289824,
+            "blockStartTime": 1743777300000,
+            "blockUpdate": 1744386112592,
+            "severity": 5,
+            "level": 5,
+            "blockType": "ROAD_CLOSED_EVENT",
+            "length": 85,
+            "turnType": "NONE",
+            "blockingAlertUuid": "9f285363-4b14-48a5-9e8f-923dca5d715a",
+            "roadType": 20,
+            "delay": -1,
+            "blockDescription": "Construction - Report when open",
+            "updateMillis": 1757489638624,
+            "causeAlert": {
+                "reportBy": "ojlaw",
+                "country": "US",
+                "inscale": false,
+                "city": "Irvine, CA",
+                "reportRating": 5,
+                "reportByMunicipalityUser": "false",
+                "confidence": 5,
+                "reliability": 10,
+                "type": "ROAD_CLOSED",
+                "fromNodeId": 53881182,
+                "uuid": "9f285363-4b14-48a5-9e8f-923dca5d715a",
+                "speed": 0,
+                "reportMood": 0,
+                "roadType": 20,
+                "magvar": 40,
+                "subtype": "ROAD_CLOSED_EVENT",
+                "street": "Market Pl",
+                "additionalInfo": "",
+                "wazeData": "usa,-117.78891432638942,33.72342999750135,9f285363-4b14-48a5-9e8f-923dca5d715a",
+                "toNodeId": 52924473,
+                "reportDescription": "",
+                "location": {
+                    "x": -117.788914,
+                    "y": 33.723429
+                },
+                "id": "alert-604415487/9f285363-4b14-48a5-9e8f-923dca5d715a",
+                "pubMillis": 1744386112000
+            },
+            "pubMillis": 1757412548617
+        },
+        {
+            "country": "US",
+            "city": "Irvine, CA",
+            "line": [
+                {
+                    "x": -117.741593,
+                    "y": 33.666443
+                },
+                {
+                    "x": -117.742191,
+                    "y": 33.665793
+                }
+            ],
+            "speedKMH": 0,
+            "type": "NONE",
+            "blockingAlertID": 1854159357,
+            "blockExpiration": 1767254340000,
+            "uuid": 122622580,
+            "speed": 0,
+            "segments": [
+                {
+                    "fromNode": 58360500,
+                    "ID": 509112247,
+                    "toNode": 58360501,
+                    "isForward": true
+                }
+            ],
+            "street": "",
+            "id": 122622580,
+            "blockStartTime": 1733421780000,
+            "blockUpdate": 1733421836272,
+            "severity": 5,
+            "level": 5,
+            "blockType": "ROAD_CLOSED_EVENT",
+            "length": 91,
+            "turnType": "NONE",
+            "blockingAlertUuid": "97605e91-2fd7-4a75-a084-2c7146da1bcf",
+            "roadType": 20,
+            "delay": -1,
+            "blockDescription": "",
+            "updateMillis": 1757489638578,
+            "causeAlert": {
+                "reportBy": "ojlaw",
+                "country": "US",
+                "inscale": false,
+                "city": "Irvine, CA",
+                "reportRating": 5,
+                "reportByMunicipalityUser": "false",
+                "confidence": 5,
+                "reliability": 10,
+                "type": "ROAD_CLOSED",
+                "fromNodeId": 58360500,
+                "uuid": "97605e91-2fd7-4a75-a084-2c7146da1bcf",
+                "speed": 0,
+                "reportMood": 0,
+                "roadType": 1,
+                "magvar": 218,
+                "subtype": "ROAD_CLOSED_EVENT",
+                "additionalInfo": "",
+                "wazeData": "usa,-117.74159320686309,33.66644381787396,97605e91-2fd7-4a75-a084-2c7146da1bcf",
+                "toNodeId": 58360501,
+                "location": {
+                    "x": -117.741593,
+                    "y": 33.666443
+                },
+                "id": "alert-1854159357/97605e91-2fd7-4a75-a084-2c7146da1bcf",
+                "pubMillis": 1733421836000
+            },
+            "pubMillis": 1757392781607
+        },
+        {
+            "country": "US",
+            "city": "Irvine, CA",
+            "line": [
+                {
+                    "x": -117.758754,
+                    "y": 33.656288
+                },
+                {
+                    "x": -117.758878,
+                    "y": 33.656194
+                },
+                {
+                    "x": -117.759172,
+                    "y": 33.655737
+                },
+                {
+                    "x": -117.759267,
+                    "y": 33.655604
+                },
+                {
+                    "x": -117.760353,
+                    "y": 33.654284
+                },
+                {
+                    "x": -117.760965,
+                    "y": 33.653844
+                },
+                {
+                    "x": -117.762546,
+                    "y": 33.653313
+                }
+            ],
+            "speedKMH": 0,
+            "type": "NONE",
+            "blockingAlertID": 1074223503,
+            "blockExpiration": 1757505600000,
+            "uuid": 158705614,
+            "endNode": "to I-405 N / Long Beach",
+            "speed": 0,
+            "segments": [
+                {
+                    "fromNode": 52945235,
+                    "ID": 61579747,
+                    "toNode": 52945242,
+                    "isForward": true
+                }
+            ],
+            "street": "Exit 8B: I-405 N » Long Beach",
+            "id": 158705614,
+            "blockStartTime": 1757487540000,
+            "blockUpdate": 1757444410559,
+            "severity": 5,
+            "level": 5,
+            "blockType": "NO_SUBTYPE",
+            "length": 501,
+            "turnType": "NONE",
+            "blockingAlertUuid": "4a0263fb-092a-4ba4-ad7b-5440d9e22881",
+            "roadType": 4,
+            "delay": -1,
+            "blockDescription": "CA-133 I-405 Ramp Works",
+            "updateMillis": 1757489638731,
+            "causeAlert": {
+                "reportBy": "Waze_roadclosures",
+                "country": "US",
+                "inscale": false,
+                "city": "Irvine, CA",
+                "reportRating": 5,
+                "reportByMunicipalityUser": "false",
+                "confidence": 0,
+                "reliability": 6,
+                "type": "ROAD_CLOSED",
+                "fromNodeId": 52945235,
+                "uuid": "4a0263fb-092a-4ba4-ad7b-5440d9e22881",
+                "speed": 0,
+                "reportMood": 0,
+                "roadType": 4,
+                "magvar": 228,
+                "subtype": "",
+                "street": "Exit 8B: I-405 N » Long Beach",
+                "additionalInfo": "",
+                "wazeData": "usa,-117.75875454292496,33.6562885837702,4a0263fb-092a-4ba4-ad7b-5440d9e22881",
+                "toNodeId": 52945242,
+                "reportDescription": "",
+                "location": {
+                    "x": -117.758754,
+                    "y": 33.656288
+                },
+                "id": "alert-1074223503/4a0263fb-092a-4ba4-ad7b-5440d9e22881",
+                "pubMillis": 1757444410000
+            },
+            "pubMillis": 1757487693576
+        },
+        {
+            "country": "US",
+            "city": "Anaheim, CA",
+            "line": [
+                {
+                    "x": -117.877582,
+                    "y": 33.806923
+                },
+                {
+                    "x": -117.877574,
+                    "y": 33.806174
+                }
+            ],
+            "speedKMH": 0,
+            "type": "NONE",
+            "blockingAlertID": 577453416,
+            "blockExpiration": 1782975540000,
+            "uuid": 123199466,
+            "endNode": "E Katella Ave",
+            "speed": 0,
+            "segments": [
+                {
+                    "fromNode": 58323868,
+                    "ID": 75851365,
+                    "toNode": 5612498,
+                    "isForward": true
+                }
+            ],
+            "street": "S Douglass Rd",
+            "id": 123199466,
+            "blockStartTime": 1751384280000,
+            "blockUpdate": 1751384342003,
+            "severity": 5,
+            "level": 5,
+            "blockType": "ROAD_CLOSED_EVENT",
+            "length": 83,
+            "turnType": "NONE",
+            "blockingAlertUuid": "d747b9cc-4faa-49c1-8f3e-9f0ae6968e23",
+            "roadType": 7,
+            "delay": -1,
+            "blockDescription": "Permanent Closure",
+            "updateMillis": 1757489638842,
+            "causeAlert": {
+                "country": "US",
+                "city": "Anaheim, CA",
+                "reportRating": 0,
+                "reportByMunicipalityUser": "false",
+                "reliability": 10,
+                "type": "ROAD_CLOSED",
+                "fromNodeId": 58323868,
+                "uuid": "d747b9cc-4faa-49c1-8f3e-9f0ae6968e23",
+                "speed": 0,
+                "reportMood": 0,
+                "subtype": "ROAD_CLOSED_EVENT",
+                "provider": "Honda Center",
+                "street": "S Douglass Rd",
+                "providerId": "",
+                "additionalInfo": "",
+                "toNodeId": 5612498,
+                "id": "alert-577453416/d747b9cc-4faa-49c1-8f3e-9f0ae6968e23",
+                "reportBy": "Honda Center",
+                "inscale": true,
+                "confidence": 2,
+                "roadType": 7,
+                "magvar": 179,
+                "wazeData": "usa,-117.87758283371794,33.80692361480517,d747b9cc-4faa-49c1-8f3e-9f0ae6968e23",
+                "reportDescription": "",
+                "location": {
+                    "x": -117.877582,
+                    "y": 33.806923
+                },
+                "pubMillis": 1751384342000
+            },
+            "pubMillis": 1757412548486
+        },
+        {
+            "country": "US",
+            "city": "Irvine, CA",
+            "line": [
+                {
+                    "x": -117.738848,
+                    "y": 33.679267
+                },
+                {
+                    "x": -117.739189,
+                    "y": 33.678876
+                },
+                {
+                    "x": -117.739393,
+                    "y": 33.678485
+                },
+                {
+                    "x": -117.739533,
+                    "y": 33.678181
+                },
+                {
+                    "x": -117.73979,
+                    "y": 33.677858
+                }
+            ],
+            "speedKMH": 0,
+            "type": "NONE",
+            "blockingAlertID": 686637834,
+            "blockExpiration": 1767254340000,
+            "uuid": 123165802,
+            "endNode": "Bosque",
+            "speed": 0,
+            "segments": [
+                {
+                    "fromNode": 504812066,
+                    "ID": 509117131,
+                    "toNode": 504953223,
+                    "isForward": false
+                }
+            ],
+            "street": "Beacon",
+            "id": 123165802,
+            "blockStartTime": 1746897120000,
+            "blockUpdate": 1746897155701,
+            "severity": 5,
+            "level": 5,
+            "blockType": "ROAD_CLOSED_EVENT",
+            "length": 180,
+            "turnType": "NONE",
+            "blockingAlertUuid": "9c6cfc91-96d3-4734-8d00-951969035c69",
+            "roadType": 1,
+            "delay": -1,
+            "blockDescription": "Construction",
+            "updateMillis": 1757489638854,
+            "causeAlert": {
+                "reportBy": "taco909",
+                "country": "US",
+                "inscale": false,
+                "city": "Irvine, CA",
+                "reportRating": 5,
+                "reportByMunicipalityUser": "false",
+                "confidence": 4,
+                "reliability": 10,
+                "type": "ROAD_CLOSED",
+                "fromNodeId": 504812066,
+                "uuid": "9c6cfc91-96d3-4734-8d00-951969035c69",
+                "speed": 0,
+                "reportMood": 0,
+                "roadType": 1,
+                "magvar": 216,
+                "subtype": "ROAD_CLOSED_EVENT",
+                "street": "Beacon",
+                "additionalInfo": "",
+                "wazeData": "usa,-117.73884870901098,33.67926742305901,9c6cfc91-96d3-4734-8d00-951969035c69",
+                "toNodeId": 504953223,
+                "reportDescription": "",
+                "location": {
+                    "x": -117.738848,
+                    "y": 33.679267
+                },
+                "id": "alert-686637834/9c6cfc91-96d3-4734-8d00-951969035c69",
+                "pubMillis": 1746897155000
+            },
+            "pubMillis": 1757410801168
+        },
+        {
+            "country": "US",
+            "city": "Irvine, CA",
+            "line": [
+                {
+                    "x": -117.742191,
+                    "y": 33.665793
+                },
+                {
+                    "x": -117.741593,
+                    "y": 33.666443
+                }
+            ],
+            "speedKMH": 0,
+            "type": "NONE",
+            "blockingAlertID": 1854159356,
+            "blockExpiration": 1767254340000,
+            "uuid": 122622576,
+            "endNode": "Marine Way",
+            "speed": 0,
+            "segments": [
+                {
+                    "fromNode": 58360501,
+                    "ID": 509112247,
+                    "toNode": 58360500,
+                    "isForward": false
+                }
+            ],
+            "street": "",
+            "id": 122622576,
+            "blockStartTime": 1733421780000,
+            "blockUpdate": 1733421836271,
+            "severity": 5,
+            "level": 5,
+            "blockType": "ROAD_CLOSED_EVENT",
+            "length": 91,
+            "turnType": "NONE",
+            "blockingAlertUuid": "70f5ed56-f550-4e3c-a5a4-41889c6b550c",
+            "roadType": 20,
+            "delay": -1,
+            "blockDescription": "",
+            "updateMillis": 1757489638577,
+            "causeAlert": {
+                "reportBy": "ojlaw",
+                "country": "US",
+                "inscale": false,
+                "city": "Irvine, CA",
+                "reportRating": 5,
+                "reportByMunicipalityUser": "false",
+                "confidence": 5,
+                "reliability": 10,
+                "type": "ROAD_CLOSED",
+                "fromNodeId": 58360501,
+                "uuid": "70f5ed56-f550-4e3c-a5a4-41889c6b550c",
+                "speed": 0,
+                "reportMood": 0,
+                "roadType": 1,
+                "magvar": 38,
+                "subtype": "ROAD_CLOSED_EVENT",
+                "additionalInfo": "",
+                "wazeData": "usa,-117.74219118752441,33.665793315060526,70f5ed56-f550-4e3c-a5a4-41889c6b550c",
+                "toNodeId": 58360500,
+                "location": {
+                    "x": -117.742191,
+                    "y": 33.665793
+                },
+                "id": "alert-1854159356/70f5ed56-f550-4e3c-a5a4-41889c6b550c",
+                "pubMillis": 1733421836000
+            },
+            "pubMillis": 1757392781601
+        },
+        {
+            "country": "US",
+            "city": "Irvine, CA",
+            "line": [
+                {
+                    "x": -117.789559,
+                    "y": 33.722746
+                },
+                {
+                    "x": -117.789418,
+                    "y": 33.722895
+                },
+                {
+                    "x": -117.788914,
+                    "y": 33.723429
+                }
+            ],
+            "speedKMH": 0,
+            "type": "NONE",
+            "blockingAlertID": 604415488,
+            "blockExpiration": 1777964340000,
+            "uuid": 1325528638,
+            "speed": 0,
+            "segments": [
+                {
+                    "fromNode": 53881183,
+                    "ID": 538625540,
+                    "toNode": 53881182,
+                    "isForward": false
+                }
+            ],
+            "street": "",
+            "id": 1325528638,
+            "blockStartTime": 1743777300000,
+            "blockUpdate": 1744386112593,
+            "severity": 5,
+            "level": 5,
+            "blockType": "ROAD_CLOSED_EVENT",
+            "length": 97,
+            "turnType": "NONE",
+            "blockingAlertUuid": "fc9e99f9-7685-48b8-b783-4baf4912de2b",
+            "roadType": 20,
+            "delay": -1,
+            "blockDescription": "Construction - Report when open",
+            "updateMillis": 1757489638853,
+            "causeAlert": {
+                "reportBy": "ojlaw",
+                "country": "US",
+                "inscale": false,
+                "city": "Irvine, CA",
+                "reportRating": 5,
+                "reportByMunicipalityUser": "false",
+                "confidence": 3,
+                "reliability": 10,
+                "type": "ROAD_CLOSED",
+                "fromNodeId": 53881183,
+                "uuid": "fc9e99f9-7685-48b8-b783-4baf4912de2b",
+                "speed": 0,
+                "reportMood": 0,
+                "roadType": 20,
+                "magvar": 38,
+                "subtype": "ROAD_CLOSED_EVENT",
+                "additionalInfo": "",
+                "wazeData": "usa,-117.78955955315153,33.72274635223514,fc9e99f9-7685-48b8-b783-4baf4912de2b",
+                "toNodeId": 53881182,
+                "reportDescription": "",
+                "location": {
+                    "x": -117.789559,
+                    "y": 33.722746
+                },
+                "id": "alert-604415488/fc9e99f9-7685-48b8-b783-4baf4912de2b",
+                "pubMillis": 1744386112000
+            },
+            "pubMillis": 1754910450897
+        }
+    ],
+    "users": [
+        {
+            "fleet": "none",
+            "magvar": 0,
+            "inscale": false,
+            "mood": 11,
+            "addon": 0,
+            "ping": 1,
+            "location": {
+                "x": -117.7715,
+                "y": 33.722500000000004
+            },
+            "id": "user-0",
+            "userName": "guest",
+            "speed": 0.3752564616237153,
+            "ingroup": false
+        },
+        {
+            "fleet": "none",
+            "magvar": 0,
+            "inscale": false,
+            "mood": 1,
+            "addon": 1,
+            "ping": 1,
+            "location": {
+                "x": -117.87,
+                "y": 33.7395
+            },
+            "id": "user-1",
+            "userName": "guest",
+            "speed": 0,
+            "ingroup": false
+        },
+        {
+            "fleet": "none",
+            "magvar": 0,
+            "inscale": false,
+            "mood": 50,
+            "addon": 1,
+            "ping": 1,
+            "location": {
+                "x": -117.84400000000001,
+                "y": 33.716
+            },
+            "id": "user-2",
+            "userName": "guest",
+            "speed": 28.304390764802562,
+            "ingroup": false
+        },
+        {
+            "fleet": "none",
+            "magvar": 0,
+            "inscale": false,
+            "mood": 9,
+            "addon": 0,
+            "ping": 1,
+            "location": {
+                "x": -117.8665,
+                "y": 33.7665
+            },
+            "id": "user-3",
+            "userName": "guest",
+            "speed": 33.419342229026206,
+            "ingroup": false
+        },
+        {
+            "fleet": "none",
+            "magvar": 0,
+            "inscale": false,
+            "mood": 1,
+            "addon": 1,
+            "ping": 1,
+            "location": {
+                "x": -117.8475,
+                "y": 33.76
+            },
+            "id": "user-4",
+            "userName": "guest",
+            "speed": 0,
+            "ingroup": false
+        },
+        {
+            "fleet": "none",
+            "magvar": 0,
+            "inscale": false,
+            "mood": 1,
+            "addon": 1,
+            "ping": 1,
+            "location": {
+                "x": -117.885,
+                "y": 33.7235
+            },
+            "id": "user-5",
+            "userName": "guest",
+            "speed": 20.87689305564577,
+            "ingroup": false
+        },
+        {
+            "fleet": "none",
+            "magvar": 0,
+            "inscale": false,
+            "mood": 11,
+            "addon": 2,
+            "ping": 1,
+            "location": {
+                "x": -117.834,
+                "y": 33.7405
+            },
+            "id": "user-6",
+            "userName": "guest",
+            "speed": 34.3965722540158,
+            "ingroup": false
+        },
+        {
+            "fleet": "none",
+            "magvar": 0,
+            "inscale": false,
+            "mood": 397,
+            "addon": 0,
+            "ping": 1,
+            "location": {
+                "x": -117.845,
+                "y": 33.748
+            },
+            "id": "user-7",
+            "userName": "guest",
+            "speed": 13.675807127606681,
+            "ingroup": false
+        },
+        {
+            "fleet": "none",
+            "magvar": 0,
+            "inscale": false,
+            "mood": 11,
+            "addon": 2,
+            "ping": 1,
+            "location": {
+                "x": -117.831,
+                "y": 33.7815
+            },
+            "id": "user-8",
+            "userName": "guest",
+            "speed": 6.424745412180981,
+            "ingroup": false
+        },
+        {
+            "fleet": "none",
+            "magvar": 0,
+            "inscale": false,
+            "mood": 1,
+            "addon": 0,
+            "ping": 1,
+            "location": {
+                "x": -117.80250000000001,
+                "y": 33.7245
+            },
+            "id": "user-9",
+            "userName": "guest",
+            "speed": 35.72286533927573,
+            "ingroup": false
+        },
+        {
+            "fleet": "none",
+            "magvar": 0,
+            "inscale": false,
+            "mood": 9,
+            "addon": 1,
+            "ping": 1,
+            "location": {
+                "x": -117.831,
+                "y": 33.7825
+            },
+            "id": "user-10",
+            "userName": "guest",
+            "speed": 32.10759491852868,
+            "ingroup": false
+        },
+        {
+            "fleet": "none",
+            "magvar": 0,
+            "inscale": false,
+            "mood": 1,
+            "addon": 1,
+            "ping": 1,
+            "location": {
+                "x": -117.76950000000001,
+                "y": 33.728500000000004
+            },
+            "id": "user-11",
+            "userName": "guest",
+            "speed": 0,
+            "ingroup": false
+        },
+        {
+            "fleet": "none",
+            "magvar": 0,
+            "inscale": false,
+            "mood": 11,
+            "addon": 0,
+            "ping": 1,
+            "location": {
+                "x": -117.87650000000001,
+                "y": 33.716
+            },
+            "id": "user-12",
+            "userName": "guest",
+            "speed": 16.902060728477807,
+            "ingroup": false
+        },
+        {
+            "fleet": "none",
+            "magvar": 0,
+            "inscale": false,
+            "mood": 11,
+            "addon": 1,
+            "ping": 1,
+            "location": {
+                "x": -117.811,
+                "y": 33.7305
+            },
+            "id": "user-13",
+            "userName": "guest",
+            "speed": 32.564413044494344,
+            "ingroup": false
+        },
+        {
+            "fleet": "none",
+            "magvar": 0,
+            "inscale": false,
+            "mood": 1,
+            "addon": 1,
+            "ping": 1,
+            "location": {
+                "x": -117.7645,
+                "y": 33.728
+            },
+            "id": "user-14",
+            "userName": "guest",
+            "speed": 23.774352568946185,
+            "ingroup": false
+        },
+        {
+            "fleet": "none",
+            "magvar": 0,
+            "inscale": false,
+            "mood": 10,
+            "addon": 0,
+            "ping": 1,
+            "location": {
+                "x": -117.79650000000001,
+                "y": 33.7185
+            },
+            "id": "user-15",
+            "userName": "guest",
+            "speed": 11.045283191975386,
+            "ingroup": false
+        },
+        {
+            "fleet": "none",
+            "magvar": 0,
+            "inscale": false,
+            "mood": 1,
+            "addon": 1,
+            "ping": 1,
+            "location": {
+                "x": -117.885,
+                "y": 33.735
+            },
+            "id": "user-16",
+            "userName": "guest",
+            "speed": 6.36501543020185e-9,
+            "ingroup": false
+        },
+        {
+            "fleet": "none",
+            "magvar": 0,
+            "inscale": false,
+            "mood": 899,
+            "addon": 1,
+            "ping": 1,
+            "location": {
+                "x": -117.794,
+                "y": 33.7375
+            },
+            "id": "user-17",
+            "userName": "guest",
+            "speed": 0,
+            "ingroup": false
+        },
+        {
+            "fleet": "none",
+            "magvar": 0,
+            "inscale": false,
+            "mood": 1,
+            "addon": 2,
+            "ping": 1,
+            "location": {
+                "x": -117.8585,
+                "y": 33.7575
+            },
+            "id": "user-18",
+            "userName": "guest",
+            "speed": 34.34864252206369,
+            "ingroup": false
+        },
+        {
+            "fleet": "none",
+            "magvar": 0,
+            "inscale": false,
+            "mood": 1,
+            "addon": 1,
+            "ping": 1,
+            "location": {
+                "x": -117.819,
+                "y": 33.706
+            },
+            "id": "user-19",
+            "userName": "guest",
+            "speed": 0.46538288944302064,
+            "ingroup": false
+        }
+    ]
+}
