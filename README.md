@@ -1,11 +1,11 @@
 # Waze Police Alert Monitor
 
-A Python-based monitoring tool that continuously checks Waze for police alerts in a specified geographic area and sends push notifications via Pushover.
+A Python-based monitoring tool that continuously checks Waze for police alerts in a specified geographic area and sends notifications via Pushover and Discord webhooks.
 
 ## Features
 
 - **Real-time Monitoring**: Continuously monitors Waze for police alerts in configurable geographic bounds
-- **Push Notifications**: Sends instant notifications via Pushover when police alerts are detected
+- **Multiple Notification Channels**: Sends instant notifications via Pushover and Discord webhooks
 - **Geocoding**: Converts coordinates to street names using OpenStreetMap Nominatim
 - **Flexible Bounds**: Configurable monitoring area via environment variables or command-line arguments
 - **Interactive Map**: Visualize monitoring bounds on an interactive map
@@ -15,7 +15,8 @@ A Python-based monitoring tool that continuously checks Waze for police alerts i
 ## Prerequisites
 
 - Python 3.7+
-- Pushover account and API credentials
+- Pushover account and API credentials (optional)
+- Discord server with webhook access (optional)
 - Internet connection for Waze API and geocoding services
 
 ## Installation
@@ -25,7 +26,7 @@ A Python-based monitoring tool that continuously checks Waze for police alerts i
 
 ### Using pip
 ```bash
-pip install aiohttp asyncio typer folium webbrowser
+pip install aiohttp asyncio typer folium webbrowser discord
 ```
 
 ### Using pipenv (Recommended)
@@ -53,17 +54,32 @@ export BOUNDS_BOTTOM="32.5123"   # Bottom latitude (southern boundary)
 export BOUNDS_LEFT="-119.2073"   # Left longitude (western boundary)
 export BOUNDS_RIGHT="-117.6461"  # Right longitude (eastern boundary)
 
-# Pushover configuration
+# Pushover configuration (optional)
 export PUSHOVER_API_KEY="your_pushover_api_key"
 export PUSHOVER_USER_KEYS="user_key1,user_key2,user_key3"  # Comma-separated list
+
+# Discord webhook configuration (optional)
+export DISCORD_WEBHOOK_URLS="https://discord.com/api/webhooks/URL1,https://discord.com/api/webhooks/URL2"  # Comma-separated list
 ```
 
-### Pushover Setup
+### Pushover Setup (Optional)
 
 1. Create a Pushover account at [pushover.net](https://pushover.net)
 2. Create a new application to get your API key
 3. Note your user key from your account settings
 4. Add both keys to your environment variables
+
+### Discord Webhook Setup (Optional)
+
+1. Open Discord and go to your server
+2. Right-click on the channel where you want notifications
+3. Select "Edit Channel" → "Integrations" → "Webhooks"
+4. Click "Create Webhook"
+5. Give it a name (e.g., "Waze Pinger")
+6. Copy the webhook URL and add it to your environment variables
+7. For multiple channels, create multiple webhooks and separate URLs with commas
+
+**Note**: You can use both Pushover and Discord simultaneously, or just one of them. At least one notification method must be configured for the application to work.
 
 ## Usage
 
@@ -194,9 +210,18 @@ pipenv run python main.py show-bounds --save /path/to/map.html
 - Log format: `YYYY-MM-DD HH:MM:SS - LEVEL - MESSAGE`
 
 ### Notifications
-When police alerts are detected, you'll receive Pushover notifications with:
+When police alerts are detected, you'll receive notifications via your configured channels:
+
+**Pushover Notifications:**
 - Title: "Police Alert Nearby"
 - Message: Street name and city information
+
+**Discord Notifications:**
+- Rich embed with red color scheme
+- Title: "🚨 Police Alert Nearby"
+- Description: Street name and city information
+- Username: "Waze Pinger" with custom avatar
+- Footer: "Waze Pinger Alert System"
 
 ### Map Output
 The `show-bounds` command generates an HTML file with:
@@ -210,13 +235,13 @@ The `show-bounds` command generates an HTML file with:
 ### API Endpoints
 - **Waze API**: `https://www.waze.com/live-map/api/georss`
 - **Geocoding**: OpenStreetMap Nominatim API
-- **Notifications**: Pushover API
+- **Notifications**: Pushover API and Discord Webhook API
 
 ### Data Flow
 1. Script queries Waze API for alerts in specified bounds
 2. Filters for police alerts only
 3. Converts coordinates to street names via geocoding
-4. Sends notifications to all configured Pushover users
+4. Sends notifications to all configured channels (Pushover and/or Discord)
 5. Waits for specified interval before next check
 
 ### Error Handling
@@ -230,7 +255,9 @@ The `show-bounds` command generates an HTML file with:
 ### Common Issues
 
 **No notifications received:**
-- Verify Pushover API key and user keys are correct
+- Verify at least one notification method is configured (Pushover or Discord)
+- Check Pushover API key and user keys are correct (if using Pushover)
+- Verify Discord webhook URLs are valid (if using Discord)
 - Check internet connectivity
 - Test with `--dry-run` to verify monitoring works
 
@@ -243,10 +270,41 @@ The `show-bounds` command generates an HTML file with:
 - Nominatim has rate limits, errors are normal
 - Script falls back to "Unknown Street" when geocoding fails
 
+**Discord webhook errors:**
+- Verify webhook URL is complete and valid
+- Check that the Discord server/channel still exists
+- Ensure the webhook hasn't been deleted or disabled
+- Test webhook manually in Discord first
+
 **Network errors:**
 - Check internet connection
 - Waze API may be temporarily unavailable
 - Script will retry automatically
+
+### Testing Discord Webhooks
+
+To test your Discord webhook configuration:
+
+```bash
+# Test with a simple message
+python -c "
+import os
+import asyncio
+import aiohttp
+import discord
+from discord import Webhook
+
+async def test_webhook():
+    webhook_url = 'YOUR_WEBHOOK_URL_HERE'
+    async with aiohttp.ClientSession() as session:
+        webhook = Webhook.from_url(webhook_url, session=session)
+        embed = discord.Embed(title='🧪 Test', description='Discord webhook test', color=0xFF0000)
+        await webhook.send(embed=embed, username='Waze Pinger')
+        print('✅ Discord webhook test successful!')
+
+asyncio.run(test_webhook())
+"
+```
 
 ### Debug Mode
 
@@ -263,6 +321,23 @@ logging.basicConfig(level=logging.DEBUG, ...)
 - Use responsibly and in accordance with local laws
 - Do not use for illegal activities or harassment
 - Be mindful of privacy and data protection regulations
+
+## Architecture
+
+The application is built with a modular architecture:
+
+- **`main.py`**: Main application logic and CLI interface
+- **`alert_cache.py`**: Persistent cache management for duplicate alert prevention
+- **`notification_provider.py`**: Unified notification system supporting Pushover and Discord
+- **`Pipfile`**: Dependency management with pipenv
+
+### Key Features
+
+- **Modular Design**: Separate classes for caching and notifications
+- **Multiple Notification Channels**: Support for both Pushover and Discord webhooks
+- **Flexible Configuration**: Environment variable-based configuration
+- **Error Handling**: Comprehensive error handling and logging
+- **Extensible**: Easy to add new notification providers
 
 ## Contributing
 

@@ -1,0 +1,19 @@
+# Cursor Rules for Waze Pinger Project
+
+## Python Environment
+- Always use `pipenv` for running Python commands instead of `python` directly
+- Use `pipenv run python` instead of `python`
+- Use `pipenv run pytest` instead of `pytest`
+- Use `pipenv install` for installing packages
+- Use `pipenv shell` to activate the virtual environment
+- When running scripts, use `pipenv run python script_name.py`
+
+## Code Style
+- Follow PEP 8 guidelines
+- Use type hints where appropriate
+- Prefer async/await patterns for I/O operations
+
+## Project Structure
+- Main application logic should be in `main.py`
+- Utility functions and helpers should be in separate modules
+- Keep configuration in environment variables or config files

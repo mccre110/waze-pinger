@@ -9,7 +9,8 @@ from typing import Optional, Set, Dict
 import folium
 import webbrowser
 from pathlib import Path
-import pickle
+from alert_cache import AlertCache
+from notification_provider import NotificationProvider
 
 # Configure logging
 logging.basicConfig(
@@ -21,82 +22,14 @@ logger = logging.getLogger(__name__)
 
 app = typer.Typer()
 
-# Alert cache configuration
-CACHE_FILE = "alert_cache.pkl"
-CACHE_DURATION_HOURS = int(os.getenv("CACHE_DURATION_HOURS", "24"))  # Default 24 hours
-
-
-class AlertCache:
-    """Manages a persistent cache of seen alerts to prevent duplicates"""
-
-    def __init__(
-        self, cache_file: str = CACHE_FILE, duration_hours: int = CACHE_DURATION_HOURS
-    ):
-        self.cache_file = Path(cache_file)
-        self.duration_hours = duration_hours
-        self.seen_alerts: Dict[str, datetime] = {}
-        self.load_cache()
-
-    def load_cache(self):
-        """Load the cache from disk"""
-        try:
-            if self.cache_file.exists():
-                with open(self.cache_file, "rb") as f:
-                    self.seen_alerts = pickle.load(f)
-                logger.info(f"Loaded {len(self.seen_alerts)} alerts from cache")
-                self.cleanup_expired()
-            else:
-                logger.info("No existing cache file found, starting fresh")
-        except Exception as e:
-            logger.error(f"Failed to load cache: {e}")
-            self.seen_alerts = {}
-
-    def save_cache(self):
-        """Save the cache to disk"""
-        try:
-            with open(self.cache_file, "wb") as f:
-                pickle.dump(self.seen_alerts, f)
-            logger.debug(f"Saved {len(self.seen_alerts)} alerts to cache")
-        except Exception as e:
-            logger.error(f"Failed to save cache: {e}")
-
-    def cleanup_expired(self):
-        """Remove expired alerts from cache"""
-        cutoff_time = datetime.now() - timedelta(hours=self.duration_hours)
-        before_count = len(self.seen_alerts)
-
-        # Remove expired entries
-        expired_uuids = [
-            uuid
-            for uuid, timestamp in self.seen_alerts.items()
-            if timestamp < cutoff_time
-        ]
-
-        for uuid in expired_uuids:
-            del self.seen_alerts[uuid]
-
-        removed_count = before_count - len(self.seen_alerts)
-        if removed_count > 0:
-            logger.info(f"Cleaned up {removed_count} expired alerts from cache")
-
-    def is_seen(self, alert_uuid: str) -> bool:
-        """Check if an alert has been seen before"""
-        return alert_uuid in self.seen_alerts
-
-    def mark_seen(self, alert_uuid: str):
-        """Mark an alert as seen"""
-        self.seen_alerts[alert_uuid] = datetime.now()
-
-    def get_stats(self) -> Dict[str, int]:
-        """Get cache statistics"""
-        return {
-            "total_alerts": len(self.seen_alerts),
-            "cache_duration_hours": self.duration_hours,
-        }
-
-
-# Global alert cache instance
+# Global instances
 alert_cache = AlertCache()
+notification_provider = NotificationProvider()
+
+# Notification Configuration:
+# - Pushover: Set PUSHOVER_API_KEY and PUSHOVER_USER_KEYS (comma-separated)
+# - Discord: Set DISCORD_WEBHOOK_URLS (comma-separated webhook URLs)
+# - Both can be used simultaneously
 
 # Coordinates for LA County - pulled from environment variables
 bounds = {
@@ -115,13 +48,6 @@ bounds = {
 }
 
 logger.info(f"Monitoring area: {bounds}")
-
-PUSHOVER_API_KEY = os.getenv("PUSHOVER_API_KEY")
-PUSHOVER_USER_KEYS = (
-    os.getenv("PUSHOVER_USER_KEYS").split(",")
-    if os.getenv("PUSHOVER_USER_KEYS")
-    else []
-)
 
 
 async def get_street_name_from_coordinates(lat, lon):
@@ -247,14 +173,14 @@ async def check_waze_alerts(custom_bounds: Optional[dict] = None):
                             logger.info(
                                 f"Police alert: {description} at {street_name} ({location}) in {city}"
                             )
-                            await notify_all_users(
+                            await notification_provider.notify_all_users(
                                 f"Police alert on {street_name} in {city}"
                             )
                         else:
                             logger.info(
                                 f"Police alert: {description} at {location} in {city}"
                             )
-                            await notify_all_users(
+                            await notification_provider.notify_all_users(
                                 f"Police alert on {description} in {city}"
                             )
                 else:
@@ -269,36 +195,6 @@ async def check_waze_alerts(custom_bounds: Optional[dict] = None):
         logger.error(f"JSON parsing error: {e}")
     except Exception as e:
         logger.error(f"Unexpected error: {e}")
-
-
-async def notify_all_users(msg):
-    for user_key in PUSHOVER_USER_KEYS:
-        await send_notification(msg, user_key)
-
-
-async def send_notification(msg, user_key):
-    logger.info(f"({user_key}) Sending notification")
-    try:
-        pushover_url = "https://api.pushover.net/1/messages.json"
-        data = {
-            "token": PUSHOVER_API_KEY,
-            "user": user_key,
-            "message": msg,
-            "title": "Police Alert Nearby",
-        }
-
-        async with aiohttp.ClientSession() as session:
-            async with session.post(pushover_url, data=data) as response:
-                if response.status == 200:
-                    logger.info(f"({user_key}) Notification sent: {msg}")
-                else:
-                    error_text = await response.text()
-                    logger.error(
-                        f"({user_key}) Failed to send notification: HTTP {response.status} - {error_text}"
-                    )
-
-    except Exception as e:
-        logger.error(f"({user_key}) Failed to send notification: {e}")
 
 
 async def monitor_loop(
